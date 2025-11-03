@@ -3,13 +3,17 @@
 body, html {
   margin: 0;
   padding: 0;
+  background: url(../picture/Keseluruhan/Background_image.svg);
   background-color: rgb(143, 171, 191);
- 
   scroll-behavior: smooth;
 }
 
 h1, p{
   font-family: "inter", sans-serif;
+}
+h2{
+  font-size: 36px;
+  line-height: 0;
 }
 
 section {
@@ -32,7 +36,7 @@ a{
 .bgMenu{ /* Background menu OSIS SMA __"__ */
 
   border: 0px solid;
-  background-color: RGB(143, 171, 191);
+  background-color: rgb(111, 169, 213);
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
   height: 10%;
@@ -85,10 +89,10 @@ a{
   transform: scale(1.2);
 }
 
-/* ------------------------------------------ Bagian latar gedung alfityan 1 -------------------------------------*/
+/* ------------------------------------------ Lobby Section -------------------------------------*/
 
 #bg1 { /* Background Geudng alfityan*/
-  background-image: url("../picture/alfityan2-gambargedung.png");
+  background-image: url("../picture/Lobby Section/alfityan2-gambargedung.png");
   border-bottom-left-radius: 50% 100px;
   border-bottom-right-radius: 50% 100px;
   overflow: hidden;
@@ -314,14 +318,14 @@ a{
 
 
 
-/* ----------------------------------------------- Bagian latar abu-abu ------------------------------------------*/
+/* ----------------------------------------------- Definition Section ------------------------------------------*/
 
 #bg2 { /* Background Abu-abu*/
   height: 1000px;
   border-bottom-left-radius: 50% 100px;
   border-bottom-right-radius: 50% 100px;
-  background-image: url("../picture/osis-blur.png");
-  background-size: cover;
+  background-image: url("../picture/Definition Section/osis-blur.png");
+  background-repeat: repeat;
 
 }
 
@@ -369,7 +373,7 @@ a{
 
 }
 .boxP1{
-  border: 2px solid;
+  border: px solid;
   text-align: justify;
   border-radius: 20px;
   font-family: "inter", sans-serif;
@@ -394,18 +398,11 @@ a{
 }
 
 
-/* -------------------------------------------------------- Bagian latar awan ----------------------------------------------------*/
-
-
-#bg3 { /* Background awan*/
-  background-image: url("../picture/Awan.jpg");
-  box-shadow: 0px 0px 100px RGB(24, 67, 128);
-  border-top-left-radius: 100% 100px;
-  border-top-right-radius: 100% 100px;
-  border-bottom-left-radius: 100% 100px;
-  border-bottom-right-radius: 100% 100px;
-  background-size: cover;
-  
+/* ------------------------------------------- Visi & mission section -----------------------------------------*/
+#bg3{
+  background: url(../picture/Keseluruhan/Background_image.svg);
+  background-color: #184380;
+  height: fit-content;
 }
 
 .containerBg3 {
@@ -417,8 +414,6 @@ a{
   border-color: red;
 }
 
-
-
 .bg3Box1{
   display: flex;
   border: 0px solid;
@@ -429,8 +424,8 @@ a{
 }
 .bg3Box2{
   display: flex;
-  border: 0px solid;
-  width: 70%;
+  border: px solid;
+  width: fit-content;
   flex-wrap: wrap;
   border-color: lightgreen;
   justify-content: center;
@@ -439,24 +434,36 @@ a{
 .bg3Box3{
   display: flex;
   flex-wrap: wrap;
-  border: 0px solid;
+  border: px solid;
   width: 50%;
   border-color: blue;
   justify-content: center;
   align-items: center;
+  gap: 20px;
+}
+.visiGroup{
+  width: 48%;
+  border: px solid black;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 #bg3Box4{
   text-align: center;
   flex-wrap: wrap;
-  border: 0px solid;
+  border: px solid;
   width: 100%;
   border-color: bisque;
-  
+  font-size: 30px;
+  background: linear-gradient(to Left, RGB(252, 234, 194), RGB(24, 67, 128));
+  border-radius: 20px;
 
 }
 #bg3Box41{
   text-align: center;
-  border: 0px solid;
+  border: px solid;
   flex-wrap: wrap;
   width: 100%;
   border-color: brown;
@@ -466,19 +473,28 @@ a{
   border-radius: 20px;
   padding: 10px;
 }
-
+.misiGroup{
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: px solid black;
+}
 #bg3Box5{
   text-align: center;
   flex-wrap: wrap;
-  border: 0px solid;
+  border: px solid;
   width: 100%;
   border-color: bisque;
+  font-size: 30px;
+  background: linear-gradient(to Left, RGB(252, 234, 194), RGB(24, 67, 128));
+  border-radius: 20px;
 }
 
 #bg3Box51{
 
   text-align: center;
-  border: 0px solid;
+  border: px solid;
   flex-wrap: wrap;
   width: 100%;
   border-color: brown;
@@ -491,7 +507,7 @@ a{
 }
 #bg3Box52{
   text-align: center;
-  border: 0px solid;
+  border: px solid;
   flex-wrap: wrap;
   width: 100%;
   border-color: brown;
@@ -505,7 +521,7 @@ a{
 #bg3Box53{
   
   text-align: center;
-  border: 0px solid;
+  border: px solid;
   flex-wrap: wrap;
   width: 100%;
   border-color: brown;
@@ -577,150 +593,89 @@ body { font-family: sans-serif; margin: 0; }
   transition: all 0.15s ease-out;
 }
 
-/* ------------------------------------------------ Latar abu-abu ----------------------------------------------- */
+/* --------------------------------------------- Division Section ----------------------------------------------- */
 
 #bg4 { /* Background Abu-abu*/
   height:fit-content;
-  background-size: cover;
-  
+  background: url(../picture/Keseluruhan/Background_image.svg);
+  background-color: #184380;
 }
 
 #page {
-  border: 0px solid black;
+  border: px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: fit-content;
   flex-wrap: wrap;
   padding: 150px;
-}
-
-#judulDivisi{
-  border: 0px solid black;
   width: 100%;
+}
+
+
+
+.stage{
+  border: px solid black;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(4px);
+  box-shadow: 0 6px 30px rgba(2, 6, 23, 0.6);
+}
+
+.ticker{
   display: flex;
-  justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  height: 100%;
+  gap: 22px;
+  padding: 20px 0;
+  color: white;
 }
 
-#blogCard{
-  border: 0px solid black;
+.card{
+  width: 375px;
+  height: fit-content;
+  background: linear-gradient(180deg, #12223b, #16304f);
+  border-radius: 14px;
+  padding: 18px;
+  flex: 0 0 auto;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
+  flex-direction: column;
+  gap: 12px;
+  transform-origin: center center;
+  transition: transform .3s ease, box-shadow .3s;
+  box-shadow: 0 8px 20px rgba(2, 6, 23, 0.6);
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-#blogSekretaris {
-  border: 0px solid black;
-  width: calc(16px + 336px + 16px);
-  border-radius: 16px;
-  box-shadow: 10px 10px 30px  #1f4491;
-  background: linear-gradient(to left, #eb9900, #ed8322);
-  height: fit-content;
-  transition: transform 0.5s ease;
+.card .title{font-weight:700;font-size:18px;color:white}
+.card .desc{font-size:13px;opacity:.85;color:white;}
+
+/* Efek saat ditekan */
+.card:active{
+  transform:scale(1.3) translateY(-60px);
+  z-index:10;
+  box-shadow:0 0 40px rgba(255,255,255,0.4);
+  animation-play-state:paused;
 }
 
-#blogBendahara {
-  border: 0px solid black;
-  width: calc(16px + 336px + 16px);
-  border-radius: 16px;
-  box-shadow: 10px 10px 30px  #1f4491;
-  background: linear-gradient(to left, #68a0a6, #329382);
-  transition: transform 0.5s ease;
-  height: 400px;
-}
-#blogKeagamaan {
-  border: 0px solid black;
-  width: calc(16px + 336px + 16px);
-  border-radius: 16px;
-  box-shadow: 10px 10px 30px  #1f4491;
-  background: linear-gradient(to left, #e0ab39, #ba7f19);
-  transition: transform 0.5s ease;
-  height: fit-content;
-}
-#blogK3 {
-  border: 0px solid black;
-  width: calc(16px + 336px + 16px);
-  border-radius: 16px;
-  box-shadow: 10px 10px 30px  #1f4491;
-  background: linear-gradient(to right, #e64e52, #cf2425);
-  transition: transform 0.5s ease;
-  height: fit-content;
-}
-#blogPendidikan {
-  border: 0px solid black;
-  width: calc(16px + 336px + 16px);
-  border-radius: 16px;
-  box-shadow: 10px 10px 30px  #1f4491;
-  background: linear-gradient(to right, #003459);
-  transition: transform 0.5s ease;
-  height: fit-content;
-}
-#blogFundraising {
-  border: 0px solid black;
-  width: calc(16px + 336px + 16px);
-  border-radius: 16px;
-  box-shadow: 10px 10px 30px  #1f4491;
-  background: linear-gradient(to right, #ffefbf, #e64e52);
-  transition: transform 0.5s ease;
-  height: fit-content;
-}
-#blogHumas {
-  border: 0px solid black;
-  width: calc(16px + 336px + 16px);
-  border-radius: 16px;
-  box-shadow: 10px 10px 30px  #1f4491;
-  background: linear-gradient(to right, #ffc24c, #f4978f);
-  transition: transform 0.5s ease;
-  height: fit-content;
-}
-#blogITPD {
-  border: 0px solid black;
-  width: calc(16px + 336px + 16px);
-  border-radius: 16px;
-  box-shadow: 10px 10px 30px  #1f4491;
-  background: linear-gradient(to right, #6b809b, #18bdf6);
-  transition: transform 0.5s ease;
-  height: fit-content;
+/* Saat kartu aktif, hentikan animasi container agar kartu tidak ikut bergeser */
+.card:active ~ .card,
+.card:active{
+  animation-play-state:paused;
 }
 
-#blogSekretaris:hover #sekretaris,
-#blogBendahara:hover #bendahara,
-#blogKeagamaan:hover #keagamaan,
-#blogK3:hover #K3,
-#blogPendidikan:hover #pendidikan,
-#blogFundraising:hover #pendidikan,
-#blogFundraising:hover #fundraising,
-#blogHumas:hover #humas,
-#blogITPD:hover #ITPD {
-  box-shadow: 0px 10px 50px black;
-  border-radius: 16px;
+.ticker:has(.card:active){
+  animation-play-state:paused;
 }
 
-#blogSekretaris:hover,
-#blogBendahara:hover,
-#blogKeagamaan:hover,
-#blogK3:hover,
-#blogPendidikan:hover,
-#blogFundraising:hover,
-#blogFundraising:hover,
-#blogHumas:hover,
-#blogITPD:hover {
-  transform: scale(1.05);
-
-}
-
-/* -------------------------------------------------- Latar Al-Fityan by Nendra ------------------------------------------*/
+/* -------------------------------------------------- Review Section ------------------------------------------*/
 
 #bg5 { /* Background awan*/
-  background-image: url("../picture/foto\ by\ nendra\ blur.png");
-  box-shadow: 0px 0px 100px RGB(24, 67, 128);
-  border-top-left-radius: 100% 100px;
-  border-top-right-radius: 100% 100px;
-  border-bottom-left-radius: 100% 100px;
-  border-bottom-right-radius: 100% 100px;
+  background-image: url("../picture/Review Section/Blur\ Al-Fityan\ by\ nendra.png");
   background-size: cover;
   height: fit-content;
   padding: 50px;
@@ -818,30 +773,119 @@ body { font-family: sans-serif; margin: 0; }
     padding-left: 30px;      
     margin-bottom: 8px;
 }
+/*------------------------------------------------- Event Section -------------------------------------------*/
+#bg6{
+  background: url(../picture/Keseluruhan/Background_image.svg);
+  background-color: #184380;
+  height: fit-content;
+
+}
+
+.eventGroup{
+    border: px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.kotakContent{
+    border: 0px solid black;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 50px;
+}
+.kotakJudul{
+  padding-bottom: 50px;
+}
+
+.layout1{
+    border: 0px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+    
+   
+}
+
+.kotakFoto{
+    border:0px solid black;
+}
+
+.kotakKet {
+  border: px solid black;
+  display: flex;
+  flex-wrap: wrap;        /* biar isi teks bisa turun baris */
+  width: 100%;
+  word-wrap: break-word;  /* bantu pecah kata panjang */
+  overflow-wrap: break-word;  /* biar rapi */
+  text-align: start;
+  background: rgba(255, 255, 255, 0.1); /* transparan */
+  backdrop-filter: blur(10px); /* inilah efek blur */
+  -webkit-backdrop-filter: blur(10px); /* untuk Safari */
+  border-radius: 20px;
+  padding-left: 20px;
+  box-shadow: 0 8px 20px rgba(2, 6, 23, 0.6);
+}
+
+.kotakKet h2 {
+  width: 100%;            /* pastikan teksnya menyesuaikan lebar kotak */
+  line-height: 1.3;       /* spasi antar baris */
+  white-space: normal;    /* biar teks bisa pindah baris */
+}
+.kotakKet p {
+  font-size: 24px;
+}
+
 
 @media (max-width: 1024px) {
     .kotakReview{
         width: 100%;
         padding: 20px;
     }
+    .visiGroup, .misiGroup{
+      width: 100%;
+    }
 }
 @media (max-width: 640px) {
     .kotakGoogle,
     .kotakMeta,
     .latarGoogle,
-    .latarMeta{
+    .latarMeta, .kotakKet{
         width: 100%;
       
+    }
+    .kotakContent{
+      width: 90%;
+    }
+    .kotakKet h2 {
+      font-size: 34px;
+      
+    }
+    .kotakKet p {
+      font-size: 24px;
+      line-height: 0;
     }
 
     .kotakReview{
       width: fit-content;
     }
+    .layout1{
+      flex-wrap: wrap;
+    }
+    
 }
 
-/* ------------------- Bagian POV dari Hp, sehingga layout di hp berbeda dari di desktop aar tidak berantakan ------------------- */
+/* ---------- Bagian POV dari Hp, sehingga layout di hp berbeda dari di desktop agar tidak berantakan -------- */
 
-@media (max-width: 768px) {
+@media (max-width: 640px) {
 
   .bgMenu{ /* Background menu */
     width:100%;
@@ -912,7 +956,13 @@ body { font-family: sans-serif; margin: 0; }
   .bg3Box3{
     width: 90%;
   }
+  #page{
+    padding: 0px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
 
+ 
 }
 /* ----------------------------------------- Bagian Animasi ---------------------------------------------------- */
 
