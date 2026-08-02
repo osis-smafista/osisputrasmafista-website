@@ -1,9 +1,9 @@
-/* --------------------------------------------- Keseluruhan ---------------------------------------------------- */
+﻿/* --------------------------------------------- Keseluruhan ---------------------------------------------------- */
 
 body, html {
   margin: 0;
   padding: 0;
-  background: url(../picture/Keseluruhan/Background_image.svg);
+  background: url(../assets/assets2025/Keseluruhan/Background_image.svg);
   background-color: rgb(143, 171, 191);
   scroll-behavior: smooth;
 }
@@ -92,7 +92,7 @@ a{
 /* ------------------------------------------ Lobby Section -------------------------------------*/
 
 #bg1 { /* Background Geudng alfityan*/
-  background-image: url("../picture/Lobby Section/alfityan2-gambargedung.png");
+  background-image: url("../assets/assets2025/Lobby Section/alfityan2-gambargedung.png");
   border-bottom-left-radius: 50% 100px;
   border-bottom-right-radius: 50% 100px;
   overflow: hidden;
@@ -117,16 +117,11 @@ a{
   transform: translateX(280px);
 }
 
-
-
 #logoalpit{ /* gambar logo alpit */
   position: relative;
   width: 80px;
   padding: 6px;
-
   top: 2px;
-  
-  
 }
 
 #linkalpit{ /* hitbox buat mencet link alpit */
@@ -324,13 +319,13 @@ a{
   height: 1000px;
   border-bottom-left-radius: 50% 100px;
   border-bottom-right-radius: 50% 100px;
-  background-image: url("../picture/Definition Section/osis-blur.png");
+  background-image: url("../assets/assets2025/Definition Section/osis-blur.png");
   background-repeat: repeat;
 
 }
 
 .containerBg2{
-  border: 0px solid;
+  border: px solid red;
   min-height:100%;
   width:100%;
   display: flex;
@@ -342,8 +337,8 @@ a{
 
 .bg2Box1{
   display: flex;
-  border: 0px solid;
-  width: 70%;
+  border: px solid;
+  max-width: 1500px;
   align-items: flex-start;
   justify-content: center;
   flex-wrap: wrap;
@@ -400,34 +395,33 @@ a{
 
 /* ------------------------------------------- Visi & mission section -----------------------------------------*/
 #bg3{
-  background: url(../picture/Keseluruhan/Background_image.svg);
+  background: url(../assets/assets2025/Keseluruhan/Background_image.svg);
   background-color: #184380;
   height: fit-content;
 }
 
 .containerBg3 {
-  border: 0px solid;
+  border: px solid red;
   flex-wrap: wrap;
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  border-color: red;
+  max-width: 1500px;
 }
 
 .bg3Box1{
   display: flex;
-  border: 0px solid;
+  border: px solid yellow;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  border-color: yellow;
+  max-width: 1500px;
 }
 .bg3Box2{
   display: flex;
   border: px solid;
-  width: fit-content;
+  max-width: 800px;
   flex-wrap: wrap;
-  border-color: lightgreen;
   justify-content: center;
   align-items: center;
 }
@@ -436,7 +430,6 @@ a{
   flex-wrap: wrap;
   border: px solid;
   width: 50%;
-  border-color: blue;
   justify-content: center;
   align-items: center;
   gap: 20px;
@@ -597,12 +590,12 @@ body { font-family: sans-serif; margin: 0; }
 
 #bg4 { /* Background Abu-abu*/
   height:fit-content;
-  background: url(../picture/Keseluruhan/Background_image.svg);
+  background: url(../assets/assets2025/Keseluruhan/Background_image.svg);
   background-color: #184380;
 }
 
 #page {
-  border: px solid black;
+  border: px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -616,7 +609,7 @@ body { font-family: sans-serif; margin: 0; }
 
 .stage{
   border: px solid black;
-  width: 100%;
+  max-width: 1500px;
   height: fit-content;
   overflow: hidden;
   border-radius: 18px;
@@ -636,7 +629,7 @@ body { font-family: sans-serif; margin: 0; }
 
 .card{
   width: 375px;
-  height: 550px;
+  height: fit-content;
   background: linear-gradient(180deg, #12223b, #16304f);
   border-radius: 14px;
   padding: 18px;
@@ -672,13 +665,215 @@ body { font-family: sans-serif; margin: 0; }
   animation-play-state:paused;
 }
 
-/* ---------------------------------------------- Credit section -------------------------------------------------- */
-#credit{
+/* -------------------------------------------------- Review Section ------------------------------------------*/
+
+#bg5 { /* Background awan*/
+  background-image: url("../assets/assets2025/Review Section/Blur\ Al-Fityan\ by\ nendra.png");
+  background-size: cover;
   height: fit-content;
+  padding: 50px;
 }
-.containerCredit{
-  height: 100%;
-  width: fit-content;
+
+
+
+.kotak1{
+    border: px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: rgba(255, 255, 255, 0.1); /* transparan */
+    backdrop-filter: blur(10px); /* inilah efek blur */
+    -webkit-backdrop-filter: blur(10px); /* untuk Safari */
+    border-radius: 20px;
+    width: fit-content;
+   
+}
+.kotakReview{
+    border: px solid black;
+    width: 700px;
+    padding: 100px;
+}
+.bintang{
+    width: 40px;
+    height: 40px;
+    border: 0px solid #F5C044; 
+    background-color: #F5C044; 
+    color: white;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kotakMetaGoogle{
+    border: px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    flex-wrap: wrap;
+}
+.latarGoogle{
+    border: px solid yellow;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 200px;
+    width: 800px;
+}
+.latarMeta{
+    border: px solid green;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 200px;
+    width: 800px;
+}
+.kotakGoogle{
+    border: px solid black;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+    width: 390px;
+
+}
+.kotakMeta{
+    border: px solid black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+    width: 390px;
+
+}
+
+.custom-list {
+    list-style: none;   
+    padding-left: 0;
+    font-size: 16px;
+}
+
+.custom-list li {
+    background: url("../assets/assets2025/Review Section/Done_ring_round_fill.svg") no-repeat left center;
+    background-size: 20px;   
+    padding-left: 30px;      
+    margin-bottom: 8px;
+}
+/*------------------------------------------------- Event Section -------------------------------------------*/
+#bg6{
+  background: url(../assets/assets2025/Keseluruhan/Background_image.svg);
+  background-color: #184380;
+  height: fit-content;
+
+}
+
+.eventGroup{
+    border: px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.kotakContent{
+    border: 0px solid black;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 50px;
+}
+.kotakJudul{
+  padding-bottom: 50px;
+}
+
+.layout1{
+    border: 0px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+    
+   
+}
+
+.kotakFoto{
+    border:0px solid black;
+}
+
+.kotakKet {
+  border: px solid black;
+  display: flex;
+  flex-wrap: wrap;        /* biar isi teks bisa turun baris */
+  width: 100%;
+  word-wrap: break-word;  /* bantu pecah kata panjang */
+  overflow-wrap: break-word;  /* biar rapi */
+  text-align: start;
+  background: rgba(255, 255, 255, 0.1); /* transparan */
+  backdrop-filter: blur(10px); /* inilah efek blur */
+  -webkit-backdrop-filter: blur(10px); /* untuk Safari */
+  border-radius: 20px;
+  padding-left: 20px;
+  box-shadow: 0 8px 20px rgba(2, 6, 23, 0.6);
+}
+
+.kotakKet h2 {
+  width: 100%;            /* pastikan teksnya menyesuaikan lebar kotak */
+  line-height: 1.3;       /* spasi antar baris */
+  white-space: normal;    /* biar teks bisa pindah baris */
+}
+.kotakKet p {
+  font-size: 24px;
+}
+
+
+@media (max-width: 1024px) {
+    .kotakReview{
+        width: 100%;
+        padding: 20px;
+    }
+    .visiGroup, .misiGroup{
+      width: 100%;
+    }
+}
+@media (max-width: 640px) {
+    .kotakGoogle,
+    .kotakMeta,
+    .latarGoogle,
+    .latarMeta, .kotakKet{
+        width: 100%;
+      
+    }
+    .kotakContent{
+      width: 90%;
+    }
+    .kotakKet h2 {
+      font-size: 34px;
+      
+    }
+    .kotakKet p {
+      font-size: 24px;
+      line-height: 0;
+    }
+
+    .kotakReview{
+      width: fit-content;
+    }
+    .layout1{
+      flex-wrap: wrap;
+    }
+    
 }
 
 /* ---------- Bagian POV dari Hp, sehingga layout di hp berbeda dari di desktop agar tidak berantakan -------- */
@@ -689,9 +884,7 @@ body { font-family: sans-serif; margin: 0; }
     width:100%;
   }
   
-  .titleVisiMisi{
-    margin-top: 30%;
-  }
+
 
   .bg1 { /* Background gedung al-fityan */
     background-position: left top;
@@ -800,4 +993,6211 @@ body { font-family: sans-serif; margin: 0; }
 @keyframes slideLeft{
   from{margin-left: 280px;}
   to{margin-left: 0px;}
+}
+
+/* --------------------------------------------- Lobby Single Index Overrides --------------------------------------------- */
+
+:root {
+  --blue-dark: #061936;
+  --blue-main: #123f7a;
+  --blue-light: #75bfff;
+  --cream: #fceac2;
+  --white: #ffffff;
+  --line: rgba(255, 255, 255, 0.22);
+  --shadow: rgba(0, 0, 0, 0.48);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  color: var(--white);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: var(--blue-dark);
+  overflow: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.osis-lobby {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  isolation: isolate;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: clamp(12px, 2vh, 22px);
+  padding: clamp(16px, 3vw, 34px);
+  overflow: hidden;
+  --pointer-x: 50%;
+  --pointer-y: 45%;
+  --scene-x: 0px;
+  --scene-y: 0px;
+}
+
+.osis-lobby::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: radial-gradient(circle at var(--pointer-x) var(--pointer-y), rgba(252, 234, 194, 0.18), transparent 24%);
+  pointer-events: none;
+}
+
+.background-layer,
+.background-layer img,
+.background-overlay,
+.stage-grid {
+  position: absolute;
+  inset: 0;
+}
+
+.background-layer {
+  z-index: -4;
+  background: #071a35;
+}
+
+.background-layer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.52) saturate(0.92) contrast(1.08);
+  transform: scale(1.05);
+  translate: calc(var(--scene-x) * -0.28) calc(var(--scene-y) * -0.28);
+}
+
+.background-overlay {
+  z-index: 1;
+  background:
+    linear-gradient(90deg, rgba(4, 16, 39, 0.9), rgba(13, 45, 88, 0.5), rgba(4, 16, 39, 0.9)),
+    radial-gradient(circle at center, rgba(252, 234, 194, 0.08), transparent 38%);
+}
+
+.stage-grid {
+  z-index: 2;
+  opacity: 0.14;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.15) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.15) 1px, transparent 1px);
+  background-size: 72px 72px;
+  mask-image: linear-gradient(to bottom, transparent, black 16%, black 82%, transparent);
+  translate: calc(var(--scene-x) * -0.45) calc(var(--scene-y) * -0.45);
+  animation: gridDrift 26s linear infinite;
+}
+
+.ambient-light {
+  position: absolute;
+  z-index: 3;
+  width: 42vw;
+  max-width: 620px;
+  aspect-ratio: 1;
+  border-radius: 999px;
+  filter: blur(18px);
+  opacity: 0.32;
+  pointer-events: none;
+}
+
+.ambient-light-left {
+  left: -16vw;
+  bottom: -20vh;
+  background: radial-gradient(circle, rgba(252, 234, 194, 0.58), transparent 64%);
+  animation: floatLightLeft 10s ease-in-out infinite alternate;
+}
+
+.ambient-light-right {
+  right: -16vw;
+  top: -20vh;
+  background: radial-gradient(circle, rgba(117, 191, 255, 0.58), transparent 64%);
+  animation: floatLightRight 12s ease-in-out infinite alternate;
+}
+
+.main-logo {
+  justify-self: center;
+  width: clamp(62px, 8vw, 98px);
+  aspect-ratio: 1;
+  object-fit: contain;
+  padding: 8px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.09);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 20px 50px var(--shadow), 0 0 30px rgba(252, 234, 194, 0.2);
+  animation: logoFloat 4s ease-in-out infinite;
+}
+
+.generation-selector {
+  width: min(1120px, 100%);
+  min-height: 0;
+  justify-self: center;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(14px, 2.6vw, 28px);
+  align-items: stretch;
+}
+
+.generation-stage {
+  position: relative;
+  min-height: clamp(440px, 63vh, 620px);
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  padding: clamp(16px, 2.4vw, 26px);
+  border-radius: 34px;
+  border: 0;
+  background: rgba(8, 31, 68, 0.56);
+  box-shadow:
+    0 30px 80px rgba(0, 0, 0, 0.34),
+    inset 0 1px 0 rgba(255, 255, 255, 0.18);
+  transform: translateY(0) scale(1);
+  transition: transform 260ms ease, border-color 260ms ease, box-shadow 260ms ease;
+  animation: stageEnter 720ms cubic-bezier(0.2, 0.9, 0.2, 1) both;
+  animation-delay: calc(var(--card-index, 0) * 120ms + 120ms);
+}
+
+.generation-stage::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  border-radius: 33px;
+  background: rgba(255, 255, 255, 0.04);
+  pointer-events: none;
+}
+
+.generation-stage::after {
+  content: "";
+  position: absolute;
+  inset: -40% -85%;
+  z-index: 6;
+  background: rgba(255, 255, 255, 0.18);
+  opacity: 0;
+  transform: translateX(-35%) rotate(8deg);
+  pointer-events: none;
+}
+
+.generation-stage:hover,
+.generation-stage:focus-visible,
+.generation-stage.is-selected {
+  transform: translateY(-8px) scale(1.025);
+  border-color: rgba(252, 234, 194, 0.66);
+  box-shadow:
+    0 42px 100px rgba(0, 0, 0, 0.44),
+    0 0 44px rgba(117, 191, 255, 0.22),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.generation-stage:hover::after,
+.generation-stage:focus-visible::after,
+.generation-stage.is-selected::after {
+  animation: stageShine 900ms ease;
+}
+
+.generation-stage:focus-visible {
+  outline: 3px solid rgba(252, 234, 194, 0.9);
+  outline-offset: 5px;
+}
+
+.period-top {
+  position: relative;
+  z-index: 5;
+  justify-self: center;
+  padding: 8px 18px;
+  border-radius: 999px;
+  color: var(--cream);
+  background: rgba(6, 25, 54, 0.42);
+  border: 1px solid rgba(252, 234, 194, 0.24);
+  box-shadow: 0 12px 34px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(10px);
+  font-size: clamp(12px, 1.3vw, 14px);
+  font-weight: 900;
+  letter-spacing: 0.12em;
+}
+
+.stage-watermark {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  width: min(70%, 390px);
+  aspect-ratio: 1;
+  object-fit: contain;
+  opacity: 0.13;
+  filter: grayscale(0.1) drop-shadow(0 0 26px rgba(252, 234, 194, 0.18));
+  transform: translate(-50%, -52%);
+  pointer-events: none;
+}
+
+.people-layer {
+  position: relative;
+  z-index: 3;
+  min-height: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 8px 4px 0;
+  pointer-events: none;
+}
+
+.people-layer::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 5%;
+  width: min(78%, 440px);
+  height: 28%;
+  border-radius: 999px;
+  background: radial-gradient(ellipse, rgba(252, 234, 194, 0.22), rgba(117, 191, 255, 0.1), transparent 68%);
+  filter: blur(10px);
+  transform: translateX(-50%);
+}
+
+.osis-lobby .person {
+  animation: none !important;
+}
+
+.osis-lobby .ambient-light-left,
+.osis-lobby .ambient-light-right {
+  animation: none !important;
+}
+
+/* Keep subtle logo float — cheap transform-only animation */
+.osis-lobby .main-logo {
+  animation: logoFloat 4s ease-in-out infinite;
+}
+
+.osis-lobby .person {
+  position: relative;
+  z-index: 2;
+  height: clamp(265px, 43vh, 430px);
+  width: auto;
+  max-width: 58%;
+  object-fit: contain;
+  object-position: bottom center;
+  filter:
+    drop-shadow(0 28px 28px rgba(0, 0, 0, 0.58))
+    drop-shadow(0 0 16px rgba(252, 234, 194, 0.14));
+  transition: transform 260ms ease, filter 260ms ease;
+}
+
+.people-layer-duo .person {
+  max-width: 50%;
+}
+
+.person-wian {
+  margin-right: -32px;
+  animation-delay: -700ms;
+}
+
+.person-caesar {
+  margin-left: -32px;
+  animation-delay: -1.2s;
+}
+
+.person-ahnaf-rakyan {
+  max-width: 82%;
+  animation: personFloat 7.2s ease-in-out infinite !important;
+}
+
+.generation-stage:hover .person,
+.generation-stage:focus-visible .person,
+.generation-stage.is-selected .person {
+  transform: translateY(-8px) scale(1.025);
+  filter:
+    drop-shadow(0 34px 32px rgba(0, 0, 0, 0.66))
+    drop-shadow(0 0 26px rgba(252, 234, 194, 0.24));
+}
+
+.period-bottom {
+  position: relative;
+  z-index: 5;
+  justify-self: center;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px 10px 18px;
+  border-radius: 999px;
+  background: rgba(6, 25, 54, 0.52);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.32);
+  backdrop-filter: blur(14px);
+}
+
+.period-bottom strong {
+  font-size: clamp(15px, 2vw, 22px);
+  line-height: 1;
+  letter-spacing: 0.02em;
+}
+
+.period-bottom span {
+  display: inline-grid;
+  place-items: center;
+  min-height: 34px;
+  padding: 0 14px;
+  border-radius: 999px;
+  color: var(--blue-dark);
+  background: #fceac2;
+  font-size: 11px;
+  font-weight: 950;
+  letter-spacing: 0.12em;
+  transition: transform 220ms ease, box-shadow 220ms ease;
+}
+
+.generation-stage:hover .period-bottom span,
+.generation-stage:focus-visible .period-bottom span,
+.generation-stage.is-selected .period-bottom span {
+  transform: scale(1.08);
+  box-shadow: 0 0 24px rgba(252, 234, 194, 0.34);
+}
+
+.generation-stage.is-launching {
+  transform: translateY(-10px) scale(1.04);
+}
+
+.click-ripple {
+  position: absolute;
+  z-index: 8;
+  border-radius: 999px;
+  background: radial-gradient(circle, rgba(252, 234, 194, 0.5), rgba(117, 191, 255, 0.18), transparent 70%);
+  pointer-events: none;
+  transform: scale(0);
+  animation: rippleBurst 680ms ease-out forwards;
+}
+
+body.is-changing-page::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  background:
+    radial-gradient(circle at center, rgba(252, 234, 194, 0.24), transparent 24%),
+    rgba(4, 13, 34, 0.76);
+  backdrop-filter: blur(8px);
+  animation: pageFade 720ms ease forwards;
+}
+
+.instagram-link {
+  justify-self: center;
+}
+
+.instagram-link a {
+  display: inline-grid;
+  place-items: center;
+  min-height: 34px;
+  padding: 0 14px;
+  border-radius: 999px;
+  color: rgba(255, 255, 255, 0.84);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  backdrop-filter: blur(12px);
+  font-size: 12px;
+  font-weight: 800;
+  transition: transform 220ms ease, color 220ms ease, border-color 220ms ease;
+}
+
+.instagram-link a:hover,
+.instagram-link a:focus-visible {
+  color: var(--cream);
+  border-color: rgba(252, 234, 194, 0.46);
+  transform: translateY(-2px);
+}
+
+@keyframes slowBackground {
+  from {
+    transform: scale(1.05) translate3d(-8px, -5px, 0);
+  }
+  to {
+    transform: scale(1.09) translate3d(10px, 8px, 0);
+  }
+}
+
+@keyframes gridDrift {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 144px 72px;
+  }
+}
+
+@keyframes logoFloat {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+@keyframes stageEnter {
+  from {
+    opacity: 0;
+    transform: translateY(22px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes stageShine {
+  0% {
+    opacity: 0;
+    transform: translateX(-35%) rotate(8deg);
+  }
+  28% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(35%) rotate(8deg);
+  }
+}
+
+@keyframes personFloat {
+  0%,
+  100% {
+    translate: 0 0;
+  }
+  50% {
+    translate: 0 -8px;
+  }
+}
+
+@keyframes floatLightLeft {
+  from {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  to {
+    transform: translate3d(90px, -44px, 0) scale(1.1);
+  }
+}
+
+@keyframes floatLightRight {
+  from {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  to {
+    transform: translate3d(-86px, 62px, 0) scale(1.12);
+  }
+}
+
+@keyframes rippleBurst {
+  0% {
+    opacity: 0.9;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(2.1);
+  }
+}
+
+@keyframes pageFade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 900px) {
+  body {
+    overflow: auto;
+  }
+
+  .osis-lobby {
+    min-height: 100svh;
+  }
+
+  .generation-selector {
+    grid-template-columns: 1fr;
+  }
+
+  .generation-stage {
+    min-height: 430px;
+  }
+}
+
+@media (max-width: 560px) {
+  .osis-lobby {
+    padding: 14px;
+  }
+
+  .main-logo {
+    width: 64px;
+    border-radius: 18px;
+  }
+
+  .generation-stage {
+    min-height: 390px;
+    border-radius: 26px;
+  }
+
+  .generation-stage::before {
+    border-radius: 25px;
+  }
+
+  .period-top {
+    font-size: 11px;
+    padding: 7px 13px;
+  }
+
+  .person {
+    height: 270px;
+  }
+
+  .period-bottom {
+    gap: 8px;
+    padding: 9px 10px 9px 14px;
+  }
+
+  .period-bottom strong {
+    font-size: 15px;
+  }
+
+  .period-bottom span {
+    min-height: 30px;
+    padding: 0 11px;
+    font-size: 10px;
+  }
+}
+
+/* --------------------------------------------- Final Polish Request --------------------------------------------- */
+
+.osis-lobby .main-logo,
+.osis-lobby .instagram-link a {
+  background: transparent !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+  padding: 0 !important;
+}
+
+.osis-lobby .main-logo {
+  width: clamp(58px, 6vw, 84px) !important;
+}
+
+.osis-lobby .instagram-link a {
+  color: rgba(255, 255, 255, 0.86) !important;
+  min-height: auto !important;
+  font-size: 12px !important;
+}
+
+.osis-lobby .generation-stage,
+.osis-lobby .generation-stage-old,
+.osis-lobby .generation-stage-new {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+
+.osis-lobby .generation-stage::before,
+.osis-lobby .generation-stage::after {
+  display: none !important;
+}
+
+.osis-lobby .stage-watermark {
+  opacity: 0.2;
+  width: min(58%, 330px);
+}
+
+.osis-lobby .period-top,
+.osis-lobby .period-bottom {
+  background: transparent !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+  padding-inline: 0 !important;
+}
+
+.osis-lobby .period-top {
+  color: #fceac2;
+  font-size: clamp(13px, 1.4vw, 16px);
+}
+
+.osis-lobby .period-bottom strong {
+  font-size: clamp(19px, 2.2vw, 28px);
+}
+
+.osis-lobby .period-bottom em {
+  min-height: 30px;
+  padding: 0 12px;
+}
+
+.osis-lobby .people-layer-duo .person {
+  height: clamp(195px, 34vh, 315px);
+  max-width: 43%;
+}
+
+.osis-lobby .people-layer-new .person-ahnaf-rakyan {
+  height: clamp(235px, 42vh, 395px);
+  max-width: 88%;
+}
+
+.osis-lobby .person-wian {
+  margin-right: -4px;
+}
+
+.osis-lobby .person-caesar {
+  margin-left: -4px;
+}
+
+.modern-actionbar {
+  width: min(1060px, calc(100% - 28px));
+  min-height: 62px;
+  gap: clamp(12px, 2vw, 28px);
+  padding: 0 22px;
+  border-radius: 999px;
+  background: rgba(3, 16, 39, 0.42);
+  box-shadow: 0 18px 58px rgba(0, 0, 0, 0.24);
+  backdrop-filter: blur(18px);
+}
+
+.modern-actionbar a,
+.modern-actionbar button {
+  position: relative;
+  min-height: 54px;
+  padding: 0 2px;
+  color: rgba(248, 251, 255, 0.72);
+  background: transparent !important;
+  font-size: 12px;
+  transition: color 180ms ease, transform 180ms ease;
+}
+
+.modern-actionbar a::after,
+.modern-actionbar button::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  height: 3px;
+  border-radius: 999px;
+  background: #8fc7ff;
+  opacity: 0;
+  transform: scaleX(0.35);
+  transition: opacity 180ms ease, transform 180ms ease, background 180ms ease;
+}
+
+.modern-actionbar a:hover,
+.modern-actionbar a:focus-visible,
+.modern-actionbar a.is-active,
+.modern-actionbar button:hover,
+.modern-actionbar button:focus-visible {
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
+.modern-actionbar a:hover::after,
+.modern-actionbar a:focus-visible::after,
+.modern-actionbar a.is-active::after,
+.modern-actionbar button:hover::after,
+.modern-actionbar button:focus-visible::after {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+.modern-actionbar a.is-active::after {
+  background: #fceac2;
+}
+
+.modern-back {
+  color: #fceac2 !important;
+}
+
+.modern-instagram {
+  display: inline-flex !important;
+  grid-auto-flow: column;
+  align-items: center;
+  gap: 7px;
+  color: #ff8ac5 !important;
+}
+
+.modern-instagram span {
+  font-size: 11px;
+}
+
+body[data-generation="2026"] .osis-site-shell {
+  background: #061633;
+}
+
+.modern-site::before {
+  opacity: 0.13;
+}
+
+.modern-hero {
+  width: 100%;
+  min-height: 100svh !important;
+  padding: 118px max(28px, calc((100vw - 1180px) / 2)) 56px;
+  background:
+    linear-gradient(90deg, rgba(5, 17, 40, 0.92), rgba(9, 36, 78, 0.72), rgba(5, 17, 40, 0.7)),
+    url("../assets/assets2026/Lobby OSIS/alfityan.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.modern-hero h1 {
+  font-size: clamp(34px, 5.2vw, 72px);
+  line-height: 0.98;
+}
+
+.modern-kicker,
+.modern-section-head p,
+.modern-panel span {
+  font-size: 11px;
+}
+
+.modern-hero-copy > p:not(.modern-kicker) {
+  margin-top: 16px;
+  font-size: clamp(14px, 1.35vw, 17px);
+  line-height: 1.7;
+}
+
+.modern-hero-actions {
+  margin-top: 24px;
+}
+
+.modern-hero-actions a {
+  min-height: 42px;
+  padding: 0 15px;
+  font-size: 12px;
+}
+
+.modern-hero-visual {
+  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.modern-leaders {
+  width: min(102%, 680px);
+  max-height: 76vh;
+}
+
+.modern-watermark {
+  width: min(70%, 390px);
+}
+
+.modern-section {
+  padding: clamp(54px, 7vw, 86px) 0;
+}
+
+.modern-section-head {
+  max-width: 650px;
+  margin-bottom: 22px;
+}
+
+.modern-section-head h2 {
+  font-size: clamp(24px, 3.2vw, 42px);
+  line-height: 1.12;
+}
+
+.modern-vimi-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: stretch;
+}
+
+.modern-vision {
+  grid-column: 1 / -1;
+  min-height: 0;
+}
+
+.modern-panel {
+  min-height: 190px;
+  padding: 22px;
+}
+
+.modern-vision h3 {
+  max-width: 900px;
+}
+
+.modern-panel h3 {
+  font-size: clamp(20px, 2.3vw, 30px);
+  line-height: 1.18;
+}
+
+.modern-panel:not(.modern-vision) h3 {
+  font-size: clamp(18px, 2vw, 24px);
+}
+
+.modern-panel p {
+  margin-top: 12px;
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.modern-division-grid strong,
+.modern-event-list h3 {
+  font-size: 20px;
+}
+
+.modern-quote-row blockquote {
+  min-height: 170px;
+  font-size: clamp(17px, 1.8vw, 23px);
+}
+
+@media (max-width: 860px) {
+  .modern-actionbar {
+    width: calc(100% - 20px);
+    min-height: 54px;
+    gap: 18px;
+    padding: 0 14px;
+  }
+
+  .modern-instagram span {
+    display: none;
+  }
+
+  .modern-hero {
+    padding-inline: 18px;
+    padding-top: 96px;
+  }
+
+  .modern-leaders {
+    width: min(100%, 520px);
+  }
+
+  .modern-vimi-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .osis-lobby .people-layer-duo .person {
+    height: clamp(128px, 22svh, 175px);
+    max-width: 44%;
+  }
+
+  .osis-lobby .people-layer-new .person-ahnaf-rakyan {
+    height: clamp(160px, 29svh, 235px);
+    max-width: 92%;
+  }
+
+  .modern-actionbar a,
+  .modern-actionbar button {
+    min-height: 46px;
+    font-size: 11px;
+  }
+
+  .modern-hero h1 {
+    font-size: clamp(36px, 12vw, 54px);
+  }
+}
+
+/* --------------------------------------------- Final Anomaly Fix --------------------------------------------- */
+
+.osis-lobby .generation-stage,
+.osis-lobby .generation-stage-old,
+.osis-lobby .generation-stage-new {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+
+.osis-lobby .period-top,
+.osis-lobby .period-bottom em {
+  display: none !important;
+}
+
+.osis-lobby .period-bottom {
+  position: absolute !important;
+  left: 50%;
+  bottom: clamp(76px, 10vh, 126px);
+  z-index: 9;
+  min-height: 48px;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  padding: 0 18px !important;
+  border: 1px solid rgba(252, 234, 194, 0.64) !important;
+  border-radius: 999px;
+  color: #ffffff;
+  background: rgba(3, 16, 39, 0.46) !important;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.22) !important;
+  backdrop-filter: blur(8px) !important;
+  transform: translateX(-50%);
+}
+
+.osis-lobby .period-bottom strong {
+  white-space: nowrap;
+  font-size: clamp(19px, 2.1vw, 27px) !important;
+}
+
+.osis-lobby .stage-watermark {
+  opacity: 0.16 !important;
+  width: min(56%, 310px) !important;
+}
+
+.osis-lobby .people-layer {
+  padding-bottom: 34px;
+}
+
+.osis-lobby .people-layer-duo .person {
+  height: clamp(205px, 35vh, 330px) !important;
+  max-width: 43% !important;
+}
+
+.osis-lobby .people-layer-new .person-ahnaf-rakyan {
+  height: clamp(285px, 49vh, 455px) !important;
+  max-width: 96% !important;
+}
+
+.osis-lobby .person-wian {
+  margin-right: -5px !important;
+}
+
+.osis-lobby .person-caesar {
+  margin-left: -5px !important;
+}
+
+.modern-actionbar {
+  background: rgba(3, 16, 39, 0.5) !important;
+}
+
+.modern-actionbar a,
+.modern-actionbar button {
+  color: rgba(248, 251, 255, 0.84) !important;
+  background: transparent !important;
+}
+
+.modern-actionbar a:hover,
+.modern-actionbar a:focus-visible,
+.modern-actionbar a.is-active,
+.modern-actionbar button:hover,
+.modern-actionbar button:focus-visible {
+  color: #ffffff !important;
+  background: transparent !important;
+}
+
+.modern-back {
+  color: #fceac2 !important;
+  background: transparent !important;
+}
+
+.modern-actionbar a::after,
+.modern-actionbar button::after {
+  background: #fceac2 !important;
+}
+
+.modern-actionbar a:not(.is-active)::after {
+  background: #8fc7ff !important;
+}
+
+.modern-instagram,
+.modern-instagram:hover,
+.modern-instagram:focus-visible {
+  color: #ff8ac5 !important;
+}
+
+.modern-hero {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 112px max(28px, calc((100vw - 1180px) / 2)) 56px !important;
+  background:
+    linear-gradient(90deg, rgba(4, 14, 34, 0.9), rgba(9, 35, 76, 0.66), rgba(4, 14, 34, 0.78)),
+    url("../assets/assets2025/Lobby Section/alfityan2-gambargedung.png") !important;
+  background-size: cover !important;
+  background-position: center 48% !important;
+}
+
+.modern-hero h1 {
+  font-size: clamp(34px, 5vw, 68px) !important;
+  line-height: 1 !important;
+}
+
+.modern-hero-copy > p:not(.modern-kicker) {
+  font-size: clamp(14px, 1.25vw, 17px) !important;
+}
+
+.modern-leaders {
+  width: min(104%, 700px) !important;
+  max-height: 78vh !important;
+}
+
+@media (max-width: 860px) {
+  .modern-hero {
+    padding-inline: 18px !important;
+    background-position: center !important;
+  }
+
+  .osis-lobby .period-bottom {
+    bottom: clamp(58px, 8vh, 92px);
+  }
+}
+
+@media (max-width: 560px) {
+  .osis-lobby .people-layer {
+    padding-bottom: 26px;
+  }
+
+  .osis-lobby .people-layer-duo .person {
+    height: clamp(128px, 23svh, 180px) !important;
+    max-width: 44% !important;
+  }
+
+  .osis-lobby .people-layer-new .person-ahnaf-rakyan {
+    height: clamp(166px, 31svh, 250px) !important;
+    max-width: 95% !important;
+  }
+
+  .osis-lobby .period-bottom {
+    min-height: 38px;
+    padding: 0 13px !important;
+  }
+
+  .osis-lobby .period-bottom strong {
+    font-size: 15px !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 1ms !important;
+  }
+}
+
+/* Single-index period gateway and site mode overrides */
+html,
+body {
+  min-height: 100%;
+}
+
+body.is-lobby {
+  overflow: hidden;
+}
+
+body.site-open {
+  overflow: auto;
+  background:
+    linear-gradient(180deg, rgba(5, 16, 38, 0.12), rgba(5, 16, 38, 0.34)),
+    url("../assets/assets2025/Keseluruhan/Background_image.svg"),
+    rgb(143, 171, 191);
+}
+
+.osis-lobby {
+  min-height: 100svh;
+  height: 100svh;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  padding: clamp(12px, 2.2vw, 26px);
+}
+
+.osis-lobby .generation-selector {
+  height: auto;
+  min-height: 0;
+  background: transparent;
+  font-size: 1rem;
+  color: var(--white);
+  align-self: center;
+}
+
+.generation-stage {
+  appearance: none;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  min-height: clamp(330px, 58vh, 510px);
+  border-radius: 26px;
+  background: rgba(8, 31, 68, 0.56);
+  box-shadow:
+    0 26px 80px rgba(0, 0, 0, 0.34),
+    inset 0 1px 0 rgba(255, 255, 255, 0.14);
+}
+
+.generation-stage::before {
+  border-radius: 25px;
+}
+
+.generation-stage-old {
+  background: rgba(10, 39, 82, 0.58);
+}
+
+.generation-stage-new {
+  background: rgba(5, 28, 70, 0.64);
+}
+
+.period-top,
+.period-bottom {
+  border: 0;
+}
+
+.period-bottom em {
+  display: inline-grid;
+  place-items: center;
+  min-height: 32px;
+  padding: 0 13px;
+  border-radius: 999px;
+  color: var(--blue-dark);
+  background: #fceac2;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 950;
+  letter-spacing: 0.12em;
+  transition: transform 220ms ease, box-shadow 220ms ease;
+}
+
+.generation-stage:hover .period-bottom em,
+.generation-stage:focus-visible .period-bottom em,
+.generation-stage.is-selected .period-bottom em {
+  transform: scale(1.08);
+  box-shadow: 0 0 24px rgba(252, 234, 194, 0.34);
+}
+
+.people-layer {
+  align-items: end;
+}
+
+.people-layer-duo {
+  gap: clamp(10px, 2vw, 24px);
+}
+
+.people-layer-duo .person {
+  height: clamp(210px, 37vh, 350px);
+  max-width: 45%;
+  margin: 0;
+}
+
+.person-wian,
+.person-caesar {
+  object-fit: contain;
+  object-position: bottom center;
+}
+
+.person-ahnaf-rakyan {
+  height: clamp(205px, 37vh, 345px);
+  max-width: min(78%, 430px);
+  object-fit: contain;
+}
+
+.main-logo {
+  width: clamp(54px, 6.4vw, 78px);
+  border: 0;
+  border-radius: 20px;
+}
+
+.instagram-link a {
+  border: 0;
+}
+
+body.is-opening-site .osis-lobby {
+  animation: lobbyExit 420ms ease forwards;
+}
+
+body.site-open .osis-lobby,
+body.is-lobby .osis-site-shell {
+  display: none;
+}
+
+.osis-site-shell {
+  display: block;
+  min-height: 100vh;
+}
+
+@keyframes lobbyExit {
+  to {
+    opacity: 0;
+    transform: scale(1.015);
+  }
+}
+
+@keyframes softRise {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 900px) {
+  body.is-lobby {
+    overflow: hidden;
+  }
+
+  .osis-lobby {
+    gap: 8px;
+    padding: 10px;
+  }
+
+  .osis-lobby .generation-selector {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .generation-stage {
+    min-height: min(70svh, 430px);
+    padding: 12px 8px;
+    border-radius: 20px;
+  }
+
+  .period-bottom {
+    flex-direction: column;
+    gap: 6px;
+    padding: 9px 10px;
+  }
+
+  .people-layer-duo {
+    gap: 2px;
+  }
+
+  .people-layer-duo .person,
+  .person-ahnaf-rakyan {
+    height: clamp(170px, 33vh, 270px);
+  }
+}
+
+@media (max-width: 560px) {
+  .main-logo {
+    width: 52px;
+    padding: 6px;
+  }
+
+  .osis-lobby .generation-selector {
+    grid-template-columns: 1fr;
+    align-content: center;
+  }
+
+  .generation-stage {
+    min-height: calc((100svh - 138px) / 2);
+    max-height: 305px;
+    grid-template-rows: auto minmax(0, 1fr) auto;
+  }
+
+  .stage-watermark {
+    width: min(46%, 160px);
+  }
+
+  .people-layer {
+    padding-top: 0;
+  }
+
+  .people-layer-duo .person,
+  .person-ahnaf-rakyan {
+    height: clamp(125px, 24svh, 190px);
+  }
+
+  .period-top {
+    font-size: 10px;
+  }
+
+  .period-bottom strong {
+    font-size: 13px;
+  }
+
+  .period-bottom em {
+    min-height: 26px;
+    font-size: 9px;
+  }
+
+}
+
+/* --------------------------------------------- OSIS 2026/2027 Modern Layer --------------------------------------------- */
+
+body[data-generation="2024"] .modern-site,
+body[data-generation="2026"] .legacy-site {
+  display: none;
+}
+
+body[data-generation="2026"].site-open {
+  background: #061633;
+}
+
+body[data-generation="2026"] {
+  font-family: "Poppins", "Montserrat", Inter, system-ui, sans-serif;
+}
+
+body[data-generation="2026"] .osis-site-shell {
+  background:
+    radial-gradient(circle at 12% 8%, rgba(72, 149, 239, 0.32), transparent 30%),
+    radial-gradient(circle at 86% 18%, rgba(252, 234, 194, 0.14), transparent 26%),
+    #061633;
+}
+
+body[data-generation="2026"] .modern-site,
+body[data-generation="2026"] .modern-site section,
+body[data-generation="2026"] .modern-site header {
+  height: auto;
+  min-height: 0;
+  display: block;
+  align-items: initial;
+  justify-content: initial;
+  color: #f8fbff;
+  font-size: 16px;
+  background-repeat: initial;
+}
+
+.modern-site {
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+  padding-top: 18px;
+  isolation: isolate;
+}
+
+.modern-site::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.12) 1px, transparent 0);
+  background-size: 34px 34px;
+  opacity: 0.22;
+  pointer-events: none;
+}
+
+.modern-actionbar {
+  position: fixed;
+  left: 50%;
+  top: 18px;
+  z-index: 1400;
+  width: min(940px, calc(100% - 28px));
+  min-height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px;
+  border-radius: 999px;
+  background: rgba(4, 18, 43, 0.74);
+  box-shadow: 0 22px 70px rgba(0, 0, 0, 0.34);
+  backdrop-filter: blur(22px);
+  transform: translateX(-50%);
+}
+
+.modern-actionbar a,
+.modern-actionbar button {
+  min-height: 40px;
+  border: 0;
+  border-radius: 999px;
+  padding: 0 16px;
+  display: inline-grid;
+  place-items: center;
+  color: rgba(248, 251, 255, 0.84);
+  background: transparent;
+  font-family: "Montserrat", "Poppins", system-ui, sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0;
+  cursor: pointer;
+  transition: background 200ms ease, color 200ms ease, transform 200ms ease;
+}
+
+.modern-actionbar a:hover,
+.modern-actionbar a:focus-visible,
+.modern-actionbar a.is-active,
+.modern-actionbar button:hover,
+.modern-actionbar button:focus-visible {
+  color: #061633;
+  background: #fceac2;
+  transform: translateY(-1px);
+}
+
+.modern-back {
+  color: #061633 !important;
+  background: #ffffff !important;
+}
+
+.modern-hero {
+  width: min(1180px, calc(100% - 34px));
+  min-height: 100svh !important;
+  margin: 0 auto;
+  padding: 118px 0 76px;
+  display: grid !important;
+  grid-template-columns: minmax(0, 0.9fr) minmax(280px, 1.1fr);
+  align-items: center !important;
+  gap: clamp(24px, 5vw, 70px);
+}
+
+.modern-hero-copy {
+  max-width: 560px;
+}
+
+.modern-kicker,
+.modern-section-head p,
+.modern-panel span {
+  margin: 0 0 14px;
+  color: #8fc7ff;
+  font-family: "Montserrat", "Poppins", system-ui, sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.modern-hero h1 {
+  margin: 0;
+  font-family: "Montserrat", "Poppins", system-ui, sans-serif;
+  font-size: clamp(48px, 8vw, 104px);
+  line-height: 0.9;
+  letter-spacing: 0;
+}
+
+.modern-hero-copy > p:not(.modern-kicker) {
+  max-width: 520px;
+  margin: 22px 0 0;
+  color: rgba(248, 251, 255, 0.76);
+  font-size: clamp(16px, 2vw, 20px);
+  line-height: 1.75;
+}
+
+.modern-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 34px;
+}
+
+.modern-hero-actions a {
+  min-height: 48px;
+  display: inline-grid;
+  place-items: center;
+  border-radius: 999px;
+  padding: 0 18px;
+  color: #061633;
+  background: #fceac2;
+  font-family: "Montserrat", "Poppins", system-ui, sans-serif;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.modern-hero-actions a + a {
+  color: #f8fbff;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.modern-hero-visual {
+  position: relative;
+  min-height: min(68vh, 620px);
+  display: grid;
+  place-items: end center;
+}
+
+.modern-hero-visual::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 4%;
+  width: min(92%, 560px);
+  aspect-ratio: 1.45;
+  border-radius: 999px;
+  background: rgba(70, 150, 255, 0.24);
+  filter: blur(28px);
+  transform: translateX(-50%);
+}
+
+.modern-watermark {
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  width: min(72%, 430px);
+  opacity: 0.14;
+  transform: translateX(-50%);
+}
+
+.modern-leaders {
+  position: relative;
+  z-index: 2;
+  width: min(88%, 560px);
+  max-height: 70vh;
+  object-fit: contain;
+  filter: drop-shadow(0 38px 36px rgba(0, 0, 0, 0.52));
+  animation: modernFloat 5s ease-in-out infinite;
+}
+
+.modern-section {
+  width: min(1180px, calc(100% - 34px));
+  margin: 0 auto;
+  padding: clamp(70px, 10vw, 118px) 0;
+}
+
+.modern-section-head {
+  max-width: 760px;
+  margin-bottom: 30px;
+}
+
+.modern-section-head h2 {
+  margin: 0;
+  color: #ffffff;
+  font-family: "Montserrat", "Poppins", system-ui, sans-serif;
+  font-size: clamp(30px, 4.6vw, 58px);
+  line-height: 1.02;
+}
+
+.modern-vimi-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.modern-panel,
+.modern-division-grid article,
+.modern-quote-row blockquote,
+.modern-event-list article {
+  border-radius: 26px;
+  background: rgba(255, 255, 255, 0.09);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12), 0 22px 60px rgba(0, 0, 0, 0.16);
+  backdrop-filter: blur(16px);
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 520ms ease, transform 520ms ease, background 220ms ease;
+}
+
+.modern-panel.is-visible,
+.modern-division-grid article.is-visible,
+.modern-quote-row blockquote.is-visible,
+.modern-event-list article.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.modern-panel:hover,
+.modern-division-grid article:hover,
+.modern-quote-row blockquote:hover,
+.modern-event-list article:hover {
+  background: rgba(255, 255, 255, 0.13);
+}
+
+.modern-panel {
+  min-height: 250px;
+  padding: 26px;
+}
+
+.modern-vision {
+  grid-column: span 2;
+}
+
+.modern-panel h3 {
+  margin: 0;
+  font-family: "Montserrat", "Poppins", system-ui, sans-serif;
+  font-size: clamp(22px, 3vw, 34px);
+  line-height: 1.16;
+}
+
+.modern-panel p {
+  margin: 18px 0 0;
+  color: rgba(248, 251, 255, 0.72);
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+.modern-division-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.modern-division-grid article {
+  min-height: 150px;
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.modern-division-grid strong {
+  font-family: "Montserrat", "Poppins", system-ui, sans-serif;
+  font-size: 21px;
+}
+
+.modern-division-grid span {
+  color: rgba(248, 251, 255, 0.72);
+  line-height: 1.6;
+}
+
+.modern-quote-row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.modern-quote-row blockquote {
+  min-height: 220px;
+  margin: 0;
+  padding: 28px;
+  color: #f8fbff;
+  font-family: "Montserrat", "Poppins", system-ui, sans-serif;
+  font-size: clamp(20px, 2.4vw, 28px);
+  font-weight: 800;
+  line-height: 1.35;
+}
+
+.modern-event-list {
+  display: grid;
+  gap: 14px;
+}
+
+.modern-event-list article {
+  display: grid;
+  grid-template-columns: 84px 1fr;
+  gap: 18px;
+  align-items: center;
+  padding: 20px 24px;
+}
+
+.modern-event-list time {
+  width: 58px;
+  height: 58px;
+  display: grid;
+  place-items: center;
+  border-radius: 18px;
+  color: #061633;
+  background: #8fc7ff;
+  font-family: "Montserrat", "Poppins", system-ui, sans-serif;
+  font-weight: 900;
+}
+
+.modern-event-list h3 {
+  margin: 0;
+  font-family: "Montserrat", "Poppins", system-ui, sans-serif;
+  font-size: 24px;
+}
+
+.modern-event-list p {
+  margin: 6px 0 0;
+  color: rgba(248, 251, 255, 0.72);
+}
+
+@keyframes modernFloat {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+/* Lobby final cleanup */
+.osis-lobby .background-overlay {
+  background: rgba(3, 14, 34, 0.68);
+}
+
+.osis-lobby .generation-stage {
+  border: 0;
+  background: rgba(8, 31, 68, 0.56);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.3);
+}
+
+.osis-lobby .generation-stage::before {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.osis-lobby .generation-stage::after {
+  display: none;
+}
+
+.osis-lobby .period-top,
+.osis-lobby .period-bottom,
+.osis-lobby .instagram-link a,
+.osis-lobby .main-logo {
+  border: 0;
+  background: rgba(4, 18, 43, 0.58);
+}
+
+.osis-lobby .period-bottom em {
+  background: #fceac2;
+}
+
+.osis-lobby .people-layer-duo {
+  gap: 0;
+}
+
+.osis-lobby .people-layer-duo .person {
+  height: clamp(225px, 39vh, 360px);
+  max-width: 47%;
+}
+
+.osis-lobby .person-wian {
+  margin-right: -8px;
+}
+
+.osis-lobby .person-caesar {
+  margin-left: -8px;
+}
+
+@media (max-width: 860px) {
+  .modern-actionbar {
+    top: 12px;
+    justify-content: flex-start;
+    overflow-x: auto;
+    border-radius: 24px;
+  }
+
+  .modern-actionbar a,
+  .modern-actionbar button {
+    flex: 0 0 auto;
+    min-height: 38px;
+    padding: 0 13px;
+    font-size: 12px;
+  }
+
+  .modern-hero {
+    grid-template-columns: 1fr;
+    min-height: auto !important;
+    padding-top: 104px;
+    text-align: center;
+  }
+
+  .modern-hero-copy {
+    margin: 0 auto;
+  }
+
+  .modern-hero-actions {
+    justify-content: center;
+  }
+
+  .modern-hero-visual {
+    min-height: 360px;
+  }
+
+  .modern-vimi-grid,
+  .modern-division-grid,
+  .modern-quote-row {
+    grid-template-columns: 1fr;
+  }
+
+  .modern-vision {
+    grid-column: auto;
+  }
+}
+
+@media (max-width: 560px) {
+  .osis-lobby .people-layer-duo .person {
+    height: clamp(135px, 25svh, 190px);
+    max-width: 48%;
+  }
+
+  .osis-lobby .person-wian {
+    margin-right: -6px;
+  }
+
+  .osis-lobby .person-caesar {
+    margin-left: -6px;
+  }
+
+  .modern-site {
+    padding-top: 10px;
+  }
+
+  .modern-hero {
+    width: min(100% - 24px, 1180px);
+    padding-bottom: 44px;
+  }
+
+  .modern-hero h1 {
+    font-size: clamp(42px, 16vw, 68px);
+  }
+
+  .modern-hero-visual {
+    min-height: 300px;
+  }
+
+  .modern-leaders {
+    width: min(96%, 420px);
+  }
+
+  .modern-section {
+    width: min(100% - 24px, 1180px);
+    padding: 64px 0;
+  }
+
+  .modern-panel,
+  .modern-division-grid article,
+  .modern-quote-row blockquote,
+  .modern-event-list article {
+    border-radius: 20px;
+  }
+
+  .modern-event-list article {
+    grid-template-columns: 56px 1fr;
+    padding: 16px;
+  }
+
+  .modern-event-list time {
+    width: 48px;
+    height: 48px;
+    border-radius: 15px;
+  }
+}
+
+/* --------------------------------------------- Final Signature Motion & Lobby Balance --------------------------------------------- */
+
+.osis-lobby .generation-stage,
+.osis-lobby .generation-stage-old,
+.osis-lobby .generation-stage-new {
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+.osis-lobby .generation-stage::before,
+.osis-lobby .generation-stage::after {
+  display: none !important;
+}
+
+.osis-lobby .period-top,
+.osis-lobby .period-bottom em {
+  display: none !important;
+}
+
+.osis-lobby .period-bottom {
+  position: absolute !important;
+  left: 50%;
+  bottom: clamp(118px, 18vh, 190px);
+  z-index: 9;
+  min-height: 46px;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  padding: 0 18px !important;
+  border: 1px solid rgba(252, 234, 194, 0.68) !important;
+  border-radius: 999px;
+  color: #ffffff;
+  background: rgba(3, 16, 39, 0.48) !important;
+  box-shadow: 0 16px 42px rgba(0, 0, 0, 0.24) !important;
+  backdrop-filter: blur(10px) !important;
+  transform: translateX(-50%);
+}
+
+.osis-lobby .period-bottom strong {
+  white-space: nowrap;
+  font-size: clamp(18px, 1.95vw, 26px) !important;
+}
+
+.osis-lobby .stage-watermark {
+  width: min(56%, 315px) !important;
+  opacity: 0.16 !important;
+}
+
+.osis-lobby .people-layer {
+  padding-bottom: clamp(42px, 7vh, 74px) !important;
+}
+
+.osis-lobby .people-layer-duo {
+  gap: 0 !important;
+}
+
+.osis-lobby .people-layer-duo .person {
+  height: clamp(205px, 35vh, 330px) !important;
+  max-width: 43% !important;
+}
+
+.osis-lobby .people-layer-new .person-ahnaf-rakyan {
+  height: clamp(280px, 48vh, 450px) !important;
+  max-width: 96% !important;
+}
+
+.osis-lobby .person-wian {
+  margin-right: -6px !important;
+}
+
+.osis-lobby .person-caesar {
+  margin-left: -6px !important;
+}
+
+.modern-actionbar {
+  min-height: 60px !important;
+  gap: clamp(18px, 2.4vw, 34px) !important;
+  background: rgba(3, 16, 39, 0.48) !important;
+}
+
+.modern-actionbar a,
+.modern-actionbar button {
+  min-height: 56px !important;
+  color: rgba(248, 251, 255, 0.84) !important;
+  background: transparent !important;
+  transition: color 650ms ease, transform 650ms ease, filter 650ms ease !important;
+}
+
+.modern-actionbar a::after,
+.modern-actionbar button::after {
+  bottom: 2px !important;
+  height: 3px !important;
+  background: #fceac2 !important;
+  filter: blur(0.25px);
+  transition: opacity 720ms ease, transform 720ms ease, background 720ms ease, filter 720ms ease !important;
+}
+
+.modern-actionbar a:hover,
+.modern-actionbar a:focus-visible,
+.modern-actionbar a.is-active,
+.modern-actionbar button:hover,
+.modern-actionbar button:focus-visible {
+  color: #ffffff !important;
+  background: transparent !important;
+  filter: drop-shadow(0 0 12px rgba(143, 199, 255, 0.22));
+}
+
+.modern-instagram,
+.modern-instagram:hover,
+.modern-instagram:focus-visible {
+  color: #ff7ac0 !important;
+}
+
+.modern-instagram i {
+  background: linear-gradient(135deg, #ffd166, #ff4d8d 45%, #7c5cff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0 0 10px rgba(255, 80, 160, 0.32));
+}
+
+.modern-instagram::after {
+  background: linear-gradient(90deg, #ffd166, #ff4d8d, #7c5cff) !important;
+}
+
+.modern-hero {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 112px max(28px, calc((100vw - 1180px) / 2)) 56px !important;
+  background:
+    linear-gradient(90deg, rgba(4, 14, 34, 0.9), rgba(9, 35, 76, 0.64), rgba(4, 14, 34, 0.78)),
+    url("../assets/assets2025/Lobby Section/alfityan2-gambargedung.png") !important;
+  background-size: cover !important;
+  background-position: center 48% !important;
+}
+
+.modern-hero-copy {
+  animation: modernBlurUp 1150ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.modern-hero-visual {
+  animation: modernBlurUp 1350ms 160ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.modern-hero h1 {
+  font-size: clamp(38px, 5.45vw, 78px) !important;
+  line-height: 0.98 !important;
+}
+
+.modern-leaders {
+  width: min(108%, 730px) !important;
+  max-height: 80vh !important;
+}
+
+.modern-leaders {
+  animation: modernFloat 7s ease-in-out infinite !important;
+}
+
+.modern-panel,
+.modern-division-grid article,
+.modern-quote-row blockquote,
+.modern-event-list article {
+  filter: blur(13px);
+  transition:
+    opacity 1050ms cubic-bezier(0.16, 1, 0.3, 1),
+    transform 1050ms cubic-bezier(0.16, 1, 0.3, 1),
+    filter 1050ms cubic-bezier(0.16, 1, 0.3, 1),
+    background 650ms ease !important;
+}
+
+.modern-panel.is-visible,
+.modern-division-grid article.is-visible,
+.modern-quote-row blockquote.is-visible,
+.modern-event-list article.is-visible {
+  filter: blur(0);
+}
+
+@keyframes modernBlurUp {
+  from {
+    opacity: 0;
+    filter: blur(16px);
+    transform: translateY(28px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0) scale(1);
+  }
+}
+
+@media (max-width: 860px) {
+  .modern-actionbar {
+    gap: 22px !important;
+  }
+
+  .modern-hero {
+    padding-inline: 18px !important;
+    background-position: center !important;
+  }
+
+  .osis-lobby .period-bottom {
+    bottom: clamp(86px, 15vh, 132px);
+  }
+}
+
+@media (max-width: 560px) {
+  .osis-lobby .people-layer {
+    padding-bottom: 34px !important;
+  }
+
+  .osis-lobby .people-layer-duo .person {
+    height: clamp(128px, 23svh, 180px) !important;
+    max-width: 44% !important;
+  }
+
+  .osis-lobby .people-layer-new .person-ahnaf-rakyan {
+    height: clamp(166px, 31svh, 250px) !important;
+    max-width: 95% !important;
+  }
+
+  .osis-lobby .period-bottom {
+    bottom: clamp(54px, 10vh, 82px);
+    min-height: 38px;
+    padding: 0 13px !important;
+  }
+
+  .osis-lobby .period-bottom strong {
+    font-size: 15px !important;
+  }
+
+  .modern-hero h1 {
+    font-size: clamp(40px, 13vw, 58px) !important;
+  }
+}
+
+/* --------------------------------------------- Final Refinement: Signature Layout --------------------------------------------- */
+
+.osis-lobby .people-layer-duo .person {
+  height: clamp(180px, 30vh, 285px) !important;
+  max-width: 39% !important;
+}
+
+.osis-lobby .people-layer-new .person-ahnaf-rakyan {
+  height: clamp(285px, 48vh, 450px) !important;
+  max-width: 96% !important;
+}
+
+.osis-lobby .generation-stage-old .period-bottom {
+  bottom: clamp(110px, 17vh, 178px) !important;
+}
+
+.osis-lobby .generation-stage-new .period-bottom {
+  bottom: clamp(118px, 18vh, 190px) !important;
+}
+
+.osis-lobby .generation-stage-old .stage-watermark {
+  width: min(48%, 260px) !important;
+  opacity: 0.13 !important;
+}
+
+.modern-actionbar .modern-instagram {
+  min-height: 38px !important;
+  padding: 0 14px !important;
+  border-radius: 999px;
+  color: #ff8ac5 !important;
+  background: rgba(4, 18, 43, 0.4) !important;
+  box-shadow: inset 0 0 0 1px rgba(255, 138, 197, 0.18);
+}
+
+.modern-actionbar .modern-instagram::after {
+  display: none !important;
+}
+
+.modern-actionbar .modern-instagram:hover,
+.modern-actionbar .modern-instagram:focus-visible {
+  color: #ffffff !important;
+  background: rgba(3, 16, 39, 0.92) !important;
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 138, 197, 0.36),
+    0 14px 34px rgba(3, 16, 39, 0.34),
+    0 0 22px rgba(255, 77, 141, 0.16);
+}
+
+.modern-actionbar a::after,
+.modern-actionbar button::after {
+  bottom: -4px !important;
+}
+
+.modern-hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.modern-hero::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  z-index: 1;
+  height: clamp(170px, 24vh, 280px);
+  background:
+    linear-gradient(to bottom, rgba(6, 22, 51, 0), rgba(6, 22, 51, 0.72) 48%, #061633 100%);
+  backdrop-filter: blur(9px);
+  pointer-events: none;
+}
+
+.modern-hero-copy,
+.modern-hero-visual {
+  position: relative;
+  z-index: 2;
+}
+
+.modern-vimi-grid {
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 18px;
+}
+
+.modern-panel,
+.modern-quote-row blockquote {
+  border-radius: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+}
+
+.modern-panel {
+  position: relative;
+  min-height: 168px;
+  padding: 24px 24px 24px 34px !important;
+}
+
+.modern-panel::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 4px;
+  border-radius: 999px;
+  background: linear-gradient(to bottom, #8fc7ff, rgba(252, 234, 194, 0.85), rgba(143, 199, 255, 0.16));
+  box-shadow: 0 0 24px rgba(143, 199, 255, 0.34);
+}
+
+.modern-panel::after {
+  content: "";
+  position: absolute;
+  inset: 10px 0 10px 18px;
+  z-index: -1;
+  border-radius: 30px;
+  background:
+    linear-gradient(120deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.035)),
+    radial-gradient(circle at 0 0, rgba(143, 199, 255, 0.18), transparent 34%);
+  transform: skewX(-2deg);
+}
+
+.modern-vision {
+  grid-column: 1 / -1;
+  padding-block: 30px !important;
+}
+
+.modern-vision h3 {
+  max-width: 960px;
+}
+
+.modern-panel:not(.modern-vision) {
+  min-height: 150px;
+}
+
+.modern-panel h3 {
+  text-wrap: balance;
+}
+
+.modern-quote-row {
+  grid-template-columns: 0.9fr 1.1fr 0.9fr;
+  align-items: stretch;
+  gap: 22px;
+}
+
+.modern-quote-row blockquote {
+  position: relative;
+  min-height: 210px;
+  padding: 34px 28px 28px !important;
+  color: #f8fbff;
+  isolation: isolate;
+}
+
+.modern-quote-row blockquote::before {
+  content: "“";
+  position: absolute;
+  top: -32px;
+  left: 12px;
+  z-index: -1;
+  color: rgba(143, 199, 255, 0.14);
+  font-family: Georgia, serif;
+  font-size: 132px;
+  line-height: 1;
+}
+
+.modern-quote-row blockquote::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 18px;
+  bottom: 0;
+  height: 3px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, rgba(143, 199, 255, 0), rgba(143, 199, 255, 0.8), rgba(252, 234, 194, 0.56));
+  box-shadow: 0 0 24px rgba(143, 199, 255, 0.22);
+}
+
+.modern-quote-row blockquote:nth-child(2) {
+  transform: translateY(34px);
+}
+
+.modern-quote-row blockquote:nth-child(3) {
+  transform: translateY(-16px);
+}
+
+.modern-quote-row blockquote.is-visible:nth-child(2) {
+  transform: translateY(34px);
+}
+
+.modern-quote-row blockquote.is-visible:nth-child(3) {
+  transform: translateY(-16px);
+}
+
+.modern-alumni {
+  padding-bottom: clamp(98px, 13vw, 150px);
+}
+
+.modern-division-grid {
+  counter-reset: division;
+  gap: 0;
+  border-radius: 34px;
+  overflow: hidden;
+  background:
+    linear-gradient(90deg, rgba(143, 199, 255, 0.12), rgba(255, 255, 255, 0.03), rgba(252, 234, 194, 0.08));
+}
+
+.modern-division-grid article {
+  counter-increment: division;
+  position: relative;
+  min-height: 174px;
+  padding: 28px 24px 24px !important;
+  border-radius: 0 !important;
+  background: rgba(5, 20, 47, 0.16) !important;
+  box-shadow: none !important;
+  backdrop-filter: blur(12px);
+  overflow: hidden;
+}
+
+.modern-division-grid article::before {
+  content: "0" counter(division);
+  position: absolute;
+  right: 18px;
+  top: 14px;
+  color: rgba(143, 199, 255, 0.18);
+  font-family: "Montserrat", "Poppins", system-ui, sans-serif;
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.modern-division-grid article::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: linear-gradient(to bottom, transparent, rgba(143, 199, 255, 0.38), transparent);
+}
+
+.modern-division-grid article:hover {
+  background: rgba(143, 199, 255, 0.1) !important;
+}
+
+.modern-division-grid strong {
+  position: relative;
+  z-index: 1;
+}
+
+.modern-division-grid span {
+  position: relative;
+  z-index: 1;
+  max-width: 260px;
+}
+
+@media (max-width: 860px) {
+  .modern-vimi-grid,
+  .modern-quote-row {
+    grid-template-columns: 1fr;
+  }
+
+  .modern-quote-row blockquote,
+  .modern-quote-row blockquote:nth-child(2),
+  .modern-quote-row blockquote:nth-child(3),
+  .modern-quote-row blockquote.is-visible:nth-child(2),
+  .modern-quote-row blockquote.is-visible:nth-child(3) {
+    transform: translateY(0);
+  }
+
+  .osis-lobby .people-layer-duo .person {
+    height: clamp(150px, 27vh, 235px) !important;
+    max-width: 40% !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .osis-lobby .people-layer-duo .person {
+    height: clamp(116px, 21svh, 165px) !important;
+    max-width: 42% !important;
+  }
+
+  .osis-lobby .generation-stage-old .period-bottom,
+  .osis-lobby .generation-stage-new .period-bottom {
+    bottom: clamp(54px, 10vh, 82px) !important;
+  }
+
+  .modern-panel {
+    padding-inline: 24px 12px !important;
+  }
+}
+
+/* --------------------------------------------- Final Lobby Header & Typography Scale --------------------------------------------- */
+
+.osis-lobby .lobby-brand {
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(12px, 2vw, 22px);
+  max-width: min(92vw, 780px);
+  color: #ffffff;
+  text-align: center;
+  filter: drop-shadow(0 18px 30px rgba(0, 0, 0, 0.26));
+}
+
+.osis-lobby .main-logo {
+  width: clamp(72px, 7.2vw, 112px) !important;
+  height: auto;
+}
+
+.osis-lobby .school-logo {
+  width: clamp(148px, 18vw, 260px);
+  max-height: 76px;
+  object-fit: contain;
+}
+
+.osis-lobby .lobby-title {
+  display: grid;
+  gap: 4px;
+}
+
+.osis-lobby .lobby-title span {
+  color: #fceac2;
+  font-family: "Montserrat", "Poppins", system-ui, sans-serif;
+  font-size: clamp(9px, 0.9vw, 12px);
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.osis-lobby .lobby-title strong {
+  color: #ffffff;
+  font-family: "Montserrat", "Poppins", system-ui, sans-serif;
+  font-size: clamp(20px, 3vw, 40px);
+  font-weight: 900;
+  letter-spacing: 0.01em;
+  line-height: 0.98;
+  text-transform: uppercase;
+}
+
+.osis-lobby .people-layer-duo .person {
+  height: clamp(162px, 27vh, 258px) !important;
+  max-width: 38% !important;
+}
+
+.osis-lobby .people-layer-new .person-ahnaf-rakyan {
+  height: clamp(294px, 50vh, 468px) !important;
+  max-width: 98% !important;
+}
+
+.osis-lobby .generation-stage-old .period-bottom {
+  bottom: clamp(112px, 17.4vh, 182px) !important;
+}
+
+.osis-lobby .generation-stage-new .period-bottom {
+  bottom: clamp(118px, 18vh, 190px) !important;
+}
+
+.osis-lobby .generation-stage-old .stage-watermark {
+  width: min(44%, 230px) !important;
+}
+
+.modern-section-head {
+  max-width: 620px !important;
+}
+
+.modern-section-head h2 {
+  font-size: clamp(22px, 2.7vw, 36px) !important;
+  line-height: 1.16 !important;
+}
+
+.modern-panel h3 {
+  font-size: clamp(18px, 2vw, 26px) !important;
+}
+
+.modern-panel:not(.modern-vision) h3 {
+  font-size: clamp(17px, 1.65vw, 22px) !important;
+}
+
+.modern-panel p {
+  font-size: 13px !important;
+  line-height: 1.62 !important;
+}
+
+.modern-quote-row blockquote {
+  font-size: clamp(16px, 1.55vw, 21px) !important;
+  line-height: 1.42 !important;
+}
+
+.modern-division-grid strong {
+  font-size: 18px !important;
+}
+
+.modern-division-grid span {
+  font-size: 13px !important;
+  line-height: 1.55 !important;
+}
+
+@media (max-width: 860px) {
+  .osis-lobby .lobby-brand {
+    grid-template-columns: auto auto;
+    text-align: center;
+  }
+
+  .osis-lobby .lobby-title {
+    grid-column: 1 / -1;
+    justify-items: center;
+  }
+
+  .osis-lobby .people-layer-duo .person {
+    height: clamp(138px, 24vh, 220px) !important;
+    max-width: 39% !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .osis-lobby .lobby-brand {
+    gap: 8px 12px;
+  }
+
+  .osis-lobby .main-logo {
+    width: 58px !important;
+  }
+
+  .osis-lobby .school-logo {
+    width: min(44vw, 170px);
+  }
+
+  .osis-lobby .lobby-title strong {
+    font-size: clamp(17px, 6vw, 26px);
+  }
+
+  .osis-lobby .people-layer-duo .person {
+    height: clamp(106px, 19svh, 152px) !important;
+    max-width: 41% !important;
+  }
+
+  .osis-lobby .people-layer-new .person-ahnaf-rakyan {
+    height: clamp(172px, 32svh, 260px) !important;
+  }
+}
+
+/* --------------------------------------------- Final Futuristic Pass --------------------------------------------- */
+
+.osis-lobby .lobby-brand {
+  grid-template-columns: 1fr !important;
+  justify-items: center;
+  gap: 8px !important;
+  text-align: center !important;
+  transform: translateY(-6px);
+}
+
+.osis-lobby .lobby-brand::before {
+  content: "";
+  position: absolute;
+  top: clamp(82px, 13vh, 126px);
+  left: 50%;
+  width: min(460px, 54vw);
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(252, 234, 194, 0.45), transparent);
+  transform: translateX(-50%);
+}
+
+.osis-lobby .main-logo {
+  width: clamp(84px, 7.6vw, 122px) !important;
+}
+
+.osis-lobby .school-logo {
+  width: clamp(174px, 19vw, 285px) !important;
+  max-height: 82px !important;
+}
+
+.osis-lobby .lobby-title {
+  justify-items: center;
+  margin-top: 3px;
+}
+
+.osis-lobby .lobby-title strong {
+  max-width: 520px;
+  text-align: center;
+}
+
+.osis-lobby .people-layer {
+  align-items: end !important;
+  padding-bottom: clamp(28px, 4.5vh, 48px) !important;
+}
+
+.osis-lobby .people-layer-duo .person {
+  height: clamp(148px, 24vh, 232px) !important;
+  max-width: 37% !important;
+}
+
+.osis-lobby .people-layer-new .person-ahnaf-rakyan {
+  height: clamp(282px, 48vh, 452px) !important;
+  max-width: 98% !important;
+}
+
+.osis-lobby .generation-stage-old .period-bottom {
+  bottom: clamp(92px, 14.5vh, 154px) !important;
+}
+
+.osis-lobby .generation-stage-new .period-bottom {
+  bottom: clamp(108px, 16.7vh, 176px) !important;
+}
+
+.modern-site::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    linear-gradient(transparent 0 94%, rgba(143, 199, 255, 0.08) 95%, transparent 100%),
+    linear-gradient(90deg, transparent 0 94%, rgba(143, 199, 255, 0.06) 95%, transparent 100%);
+  background-size: 48px 48px;
+  opacity: 0.3;
+  animation: futureGridDrift 18s linear infinite;
+}
+
+.modern-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 72% 55%, rgba(143, 199, 255, 0.2), transparent 23%),
+    linear-gradient(115deg, transparent 0 44%, rgba(255, 255, 255, 0.08) 49%, transparent 54%),
+    repeating-linear-gradient(to bottom, rgba(255, 255, 255, 0.035) 0 1px, transparent 1px 8px);
+  mix-blend-mode: screen;
+  opacity: 0.42;
+  animation: heroScan 8s ease-in-out infinite alternate;
+}
+
+.modern-hero::after {
+  height: clamp(240px, 34vh, 390px) !important;
+  background:
+    linear-gradient(to bottom, rgba(6, 22, 51, 0), rgba(6, 22, 51, 0.68) 34%, rgba(6, 22, 51, 0.94) 64%, #061633 100%) !important;
+  backdrop-filter: blur(16px) !important;
+}
+
+.modern-section {
+  position: relative;
+}
+
+.modern-section::before {
+  content: "";
+  position: absolute;
+  top: 42px;
+  right: max(20px, calc((100vw - 1180px) / -2));
+  width: 280px;
+  aspect-ratio: 1;
+  border: 1px solid rgba(143, 199, 255, 0.12);
+  border-radius: 50%;
+  background:
+    radial-gradient(circle, rgba(143, 199, 255, 0.09), transparent 58%);
+  filter: blur(0.2px);
+  opacity: 0.65;
+  pointer-events: none;
+  animation: orbitPulse 9s ease-in-out infinite;
+}
+
+.modern-section-head h2 {
+  font-size: clamp(20px, 2.25vw, 31px) !important;
+}
+
+.modern-panel h3 {
+  font-size: clamp(16px, 1.65vw, 22px) !important;
+}
+
+.modern-panel:not(.modern-vision) h3 {
+  font-size: clamp(15px, 1.42vw, 19px) !important;
+}
+
+.modern-panel p,
+.modern-division-grid span {
+  font-size: 12.5px !important;
+}
+
+.modern-quote-row blockquote {
+  font-size: clamp(14px, 1.34vw, 18px) !important;
+  min-height: 170px !important;
+}
+
+@keyframes futureGridDrift {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 96px 48px;
+  }
+}
+
+@keyframes heroScan {
+  from {
+    opacity: 0.28;
+    transform: translateY(-12px);
+  }
+  to {
+    opacity: 0.48;
+    transform: translateY(12px);
+  }
+}
+
+@keyframes orbitPulse {
+  0%,
+  100% {
+    transform: scale(1) rotate(0deg);
+    opacity: 0.42;
+  }
+  50% {
+    transform: scale(1.08) rotate(16deg);
+    opacity: 0.74;
+  }
+}
+
+@media (max-width: 860px) {
+  .osis-lobby .lobby-brand::before {
+    display: none;
+  }
+
+  .osis-lobby .people-layer-duo .person {
+    height: clamp(126px, 22vh, 196px) !important;
+    max-width: 38% !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .osis-lobby .main-logo {
+    width: 66px !important;
+  }
+
+  .osis-lobby .school-logo {
+    width: min(54vw, 190px) !important;
+  }
+
+  .osis-lobby .people-layer-duo .person {
+    height: clamp(94px, 17svh, 138px) !important;
+    max-width: 40% !important;
+  }
+
+  .osis-lobby .generation-stage-old .period-bottom,
+  .osis-lobby .generation-stage-new .period-bottom {
+    bottom: clamp(48px, 9vh, 76px) !important;
+  }
+}
+
+/* --------------------------------------------- Division Photos & Lobby Pop-in --------------------------------------------- */
+
+.osis-lobby .lobby-brand {
+  grid-template-columns: auto auto !important;
+  justify-items: center;
+  align-items: center;
+  gap: 6px clamp(18px, 3vw, 34px) !important;
+}
+
+.osis-lobby .lobby-title {
+  grid-column: 1 / -1;
+}
+
+.osis-lobby .main-logo {
+  width: clamp(86px, 7.8vw, 126px) !important;
+}
+
+.osis-lobby .school-logo {
+  width: clamp(190px, 20vw, 300px) !important;
+}
+
+.osis-lobby .generation-stage-old .people-layer-duo {
+  transform: translateY(clamp(34px, 5.2vh, 62px));
+}
+
+.osis-lobby .generation-stage-old .period-bottom {
+  bottom: clamp(72px, 11.2vh, 118px) !important;
+}
+
+.osis-lobby .generation-stage-old .people-layer-duo .person {
+  height: clamp(148px, 24vh, 232px) !important;
+}
+
+.osis-lobby .lobby-brand,
+.osis-lobby .generation-stage,
+.osis-lobby .instagram-link {
+  animation: lobbyPopIn 900ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.osis-lobby .generation-stage-old {
+  animation-delay: 140ms;
+}
+
+.osis-lobby .generation-stage-new {
+  animation-delay: 260ms;
+}
+
+.osis-lobby .instagram-link {
+  animation-delay: 380ms;
+}
+
+@keyframes lobbyPopIn {
+  from {
+    opacity: 0;
+    filter: blur(12px);
+    transform: translateY(24px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0) scale(1);
+  }
+}
+
+.modern-division-grid article img {
+  position: relative;
+  z-index: 1;
+  width: min(100%, 260px);
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  object-position: center;
+  border: 1px solid rgba(252, 234, 194, 0.42);
+  border-radius: 18px;
+  box-shadow: 0 18px 34px rgba(0, 0, 0, 0.22);
+  margin-bottom: 16px;
+}
+
+.modern-division-grid article:has(img) {
+  min-height: 260px;
+}
+
+.modern-division-grid article:has(img)::before {
+  top: 18px;
+}
+
+@media (max-width: 860px) {
+  .osis-lobby .generation-stage-old .people-layer-duo {
+    transform: translateY(34px);
+  }
+
+  .osis-lobby .school-logo {
+    width: min(44vw, 230px) !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .osis-lobby .lobby-brand {
+    gap: 5px 12px !important;
+  }
+
+  .osis-lobby .main-logo {
+    width: 68px !important;
+  }
+
+  .osis-lobby .school-logo {
+    width: min(52vw, 180px) !important;
+  }
+
+  .osis-lobby .generation-stage-old .people-layer-duo {
+    transform: translateY(22px);
+  }
+
+  .osis-lobby .generation-stage-old .period-bottom {
+    bottom: clamp(42px, 8vh, 68px) !important;
+  }
+}
+
+/* --------------------------------------------- Division Lightbox & Forced Lobby Alignment --------------------------------------------- */
+
+.osis-lobby .lobby-brand {
+  gap: 4px 10px !important;
+}
+
+.osis-lobby .main-logo {
+  width: clamp(82px, 7.3vw, 116px) !important;
+}
+
+.osis-lobby .school-logo {
+  width: clamp(174px, 17vw, 260px) !important;
+}
+
+.osis-lobby .generation-stage-old .period-bottom {
+  left: 50% !important;
+  bottom: clamp(116px, 18.5vh, 188px) !important;
+  transform: translateX(-50%) !important;
+}
+
+.osis-lobby .generation-stage-old .people-layer-duo {
+  transform: translateY(clamp(18px, 3.2vh, 38px)) !important;
+}
+
+.modern-division-grid article:has(img) {
+  cursor: zoom-in;
+}
+
+.modern-division-grid article:has(img):hover img {
+  transform: translateY(-3px) scale(1.015);
+  border-color: rgba(252, 234, 194, 0.72);
+}
+
+.modern-division-grid article img {
+  transition: transform 420ms ease, border-color 420ms ease, box-shadow 420ms ease;
+}
+
+.division-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 5000;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 360ms ease;
+}
+
+.division-lightbox.is-open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.division-lightbox__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(2, 10, 25, 0.66);
+  backdrop-filter: blur(16px);
+}
+
+.division-lightbox__panel {
+  position: relative;
+  z-index: 1;
+  width: min(980px, 94vw);
+  border-radius: 28px;
+  background:
+    linear-gradient(135deg, rgba(8, 29, 67, 0.86), rgba(3, 13, 34, 0.92)),
+    radial-gradient(circle at 50% 0, rgba(143, 199, 255, 0.24), transparent 42%);
+  box-shadow:
+    0 34px 90px rgba(0, 0, 0, 0.46),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.12);
+  transform: translateY(28px) scale(0.96);
+  filter: blur(12px);
+  transition: transform 420ms cubic-bezier(0.16, 1, 0.3, 1), filter 420ms ease;
+  overflow: hidden;
+}
+
+.division-lightbox.is-open .division-lightbox__panel {
+  transform: translateY(0) scale(1);
+  filter: blur(0);
+}
+
+.division-lightbox figure {
+  margin: 0;
+  display: grid;
+  gap: 14px;
+  padding: clamp(18px, 3vw, 30px);
+}
+
+.division-lightbox img {
+  width: 100%;
+  max-height: 72vh;
+  object-fit: contain;
+  border-radius: 22px;
+  border: 1px solid rgba(252, 234, 194, 0.48);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.division-lightbox figcaption {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  color: rgba(248, 251, 255, 0.76);
+  font-family: "Montserrat", "Poppins", system-ui, sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.division-lightbox figcaption span {
+  color: #fceac2;
+}
+
+.division-lightbox__close,
+.division-lightbox__nav {
+  position: absolute;
+  z-index: 3;
+  border: 0;
+  color: #ffffff;
+  background: rgba(3, 16, 39, 0.74);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.14);
+  cursor: pointer;
+  transition: transform 220ms ease, background 220ms ease;
+}
+
+.division-lightbox__close {
+  top: 16px;
+  right: 16px;
+  width: 42px;
+  height: 42px;
+  border-radius: 999px;
+  font-size: 28px;
+  line-height: 1;
+}
+
+.division-lightbox__nav {
+  top: 50%;
+  width: 48px;
+  height: 70px;
+  border-radius: 999px;
+  font-size: 44px;
+  transform: translateY(-50%);
+}
+
+.division-lightbox__prev {
+  left: 16px;
+}
+
+.division-lightbox__next {
+  right: 16px;
+}
+
+.division-lightbox__close:hover,
+.division-lightbox__nav:hover {
+  background: rgba(10, 47, 102, 0.9);
+  transform: scale(1.04);
+}
+
+.division-lightbox__nav:hover {
+  transform: translateY(-50%) scale(1.04);
+}
+
+body.lightbox-open .modern-site > *:not(.division-lightbox) {
+  filter: blur(5px);
+}
+
+@media (max-width: 700px) {
+  .division-lightbox {
+    padding: 12px;
+  }
+
+  .division-lightbox__nav {
+    width: 40px;
+    height: 56px;
+    font-size: 34px;
+  }
+
+  .division-lightbox figcaption {
+    flex-direction: column;
+    gap: 4px;
+  }
+}
+
+/* Final requested polish: forced lobby overlay, noise backdrop, frameless vision, sliding gallery. */
+body[data-generation="2026"] .osis-site-shell {
+  background:
+    radial-gradient(circle at 16% 12%, rgba(161, 218, 255, 0.24), transparent 28%),
+    radial-gradient(circle at 82% 18%, rgba(41, 123, 202, 0.22), transparent 32%),
+    linear-gradient(135deg, rgba(3, 15, 39, 0.92), rgba(7, 38, 83, 0.82) 48%, rgba(3, 16, 43, 0.94)),
+    url("../assets/assets2026/modern-blue-noise.jpg") center / cover fixed,
+    #061633 !important;
+}
+
+body[data-generation="2026"] .modern-site,
+body[data-generation="2026"] .modern-site section,
+body[data-generation="2026"] .modern-site header {
+  background: transparent !important;
+}
+
+body[data-generation="2026"] .modern-site::before {
+  opacity: 0.2 !important;
+  background-image:
+    radial-gradient(circle, rgba(210, 238, 255, 0.18) 1px, transparent 1.2px),
+    linear-gradient(120deg, rgba(142, 204, 255, 0.08), transparent 34%, rgba(255, 231, 180, 0.06));
+  background-size: 22px 22px, 100% 100%;
+  mix-blend-mode: screen;
+}
+
+body[data-generation="2026"] .modern-site::after {
+  opacity: 0.34 !important;
+  background:
+    radial-gradient(circle at 25% 20%, rgba(168, 219, 255, 0.2), transparent 22%),
+    radial-gradient(circle at 75% 70%, rgba(33, 101, 176, 0.28), transparent 28%),
+    linear-gradient(180deg, transparent, rgba(2, 11, 31, 0.4));
+}
+
+.modern-hero::after {
+  height: 190px !important;
+  background:
+    linear-gradient(180deg, transparent 0%, rgba(4, 20, 48, 0.66) 48%, rgba(5, 25, 58, 0.96) 100%) !important;
+  backdrop-filter: blur(5px);
+}
+
+.modern-vimi .modern-panel {
+  min-height: 0 !important;
+  padding: 18px 0 18px 26px !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  overflow: visible;
+}
+
+.modern-vimi .modern-panel::after {
+  display: none !important;
+}
+
+.modern-vimi .modern-panel::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  left: 0;
+  width: 3px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #9fd4ff, rgba(252, 234, 194, 0.86), rgba(91, 169, 255, 0.12));
+  box-shadow: 0 0 24px rgba(130, 201, 255, 0.5);
+}
+
+.modern-vimi .modern-panel h3 {
+  max-width: 920px;
+  font-size: clamp(18px, 2vw, 30px) !important;
+  line-height: 1.26 !important;
+}
+
+.modern-vimi .modern-panel:not(.modern-vision) h3 {
+  font-size: clamp(17px, 1.7vw, 23px) !important;
+}
+
+.modern-vimi .modern-panel p {
+  max-width: 780px;
+}
+
+.modern-vimi-grid {
+  gap: clamp(18px, 3vw, 34px) !important;
+}
+
+.osis-lobby .generation-stage-old .people-layer-duo {
+  transform: translateY(clamp(44px, 6.6vh, 82px)) !important;
+}
+
+.osis-lobby .generation-stage-old .period-bottom {
+  left: 50% !important;
+  bottom: clamp(150px, 23vh, 238px) !important;
+  transform: translateX(-50%) !important;
+  z-index: 35 !important;
+  min-width: clamp(300px, 27vw, 390px) !important;
+  pointer-events: none;
+}
+
+.osis-lobby .generation-stage-old .period-bottom strong,
+.osis-lobby .generation-stage-new .period-bottom strong {
+  filter: drop-shadow(0 12px 22px rgba(0, 0, 0, 0.44));
+}
+
+.division-lightbox img {
+  transition: transform 220ms ease, opacity 220ms ease, filter 220ms ease;
+  will-change: transform, opacity, filter;
+}
+
+.division-lightbox img.slide-out-left {
+  opacity: 0;
+  filter: blur(10px);
+  transform: translateX(-64px) scale(0.985);
+}
+
+.division-lightbox img.slide-out-right {
+  opacity: 0;
+  filter: blur(10px);
+  transform: translateX(64px) scale(0.985);
+}
+
+.division-lightbox img.slide-in-right {
+  animation: divisionSlideInRight 420ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.division-lightbox img.slide-in-left {
+  animation: divisionSlideInLeft 420ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes divisionSlideInRight {
+  from {
+    opacity: 0;
+    filter: blur(10px);
+    transform: translateX(64px) scale(0.985);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0) scale(1);
+  }
+}
+
+@keyframes divisionSlideInLeft {
+  from {
+    opacity: 0;
+    filter: blur(10px);
+    transform: translateX(-64px) scale(0.985);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0) scale(1);
+  }
+}
+
+@media (max-width: 760px) {
+  .osis-lobby .generation-stage-old .people-layer-duo {
+    transform: translateY(22px) !important;
+  }
+
+  .osis-lobby .generation-stage-old .period-bottom {
+    bottom: clamp(66px, 9.5vh, 92px) !important;
+    min-width: min(82vw, 330px) !important;
+  }
+
+  .modern-vimi .modern-panel {
+    padding-left: 20px !important;
+  }
+}
+
+/* Final lobby alignment and restored 2026/2027 section background. */
+body[data-generation="2026"] .osis-site-shell {
+  background:
+    radial-gradient(circle at 20% 12%, rgba(84, 152, 226, 0.16), transparent 30%),
+    radial-gradient(circle at 82% 20%, rgba(252, 234, 194, 0.08), transparent 28%),
+    linear-gradient(135deg, #061633 0%, #09224b 44%, #06142f 100%) !important;
+}
+
+body[data-generation="2026"] .modern-site,
+body[data-generation="2026"] .modern-site section,
+body[data-generation="2026"] .modern-site header {
+  background: transparent !important;
+}
+
+body[data-generation="2026"] .modern-site::before {
+  opacity: 0.13 !important;
+  background-image:
+    linear-gradient(rgba(143, 199, 255, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(143, 199, 255, 0.08) 1px, transparent 1px) !important;
+  background-size: 48px 48px !important;
+  mix-blend-mode: screen;
+}
+
+body[data-generation="2026"] .modern-site::after {
+  opacity: 0.26 !important;
+  background:
+    linear-gradient(transparent 0 94%, rgba(143, 199, 255, 0.08) 95%, transparent 100%),
+    linear-gradient(90deg, transparent 0 94%, rgba(143, 199, 255, 0.06) 95%, transparent 100%) !important;
+  background-size: 48px 48px !important;
+}
+
+.osis-lobby .lobby-brand {
+  width: min(92vw, 620px) !important;
+  grid-template-columns: auto auto !important;
+  justify-content: center !important;
+  justify-items: center !important;
+  align-items: center !important;
+  column-gap: clamp(2px, 0.8vw, 10px) !important;
+  row-gap: 4px !important;
+  margin-inline: auto !important;
+  transform: translateY(clamp(8px, 1.8vh, 20px)) !important;
+}
+
+.osis-lobby .main-logo {
+  width: clamp(82px, 7.2vw, 112px) !important;
+  padding: 0 !important;
+  margin-right: clamp(-16px, -1vw, -6px) !important;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+.osis-lobby .school-logo {
+  width: clamp(184px, 17vw, 258px) !important;
+  max-height: 82px !important;
+  margin-left: clamp(-10px, -0.8vw, -4px) !important;
+  object-fit: contain !important;
+}
+
+.osis-lobby .lobby-title {
+  grid-column: 1 / -1 !important;
+  text-align: center !important;
+  justify-items: center !important;
+  margin-top: 3px !important;
+}
+
+.osis-lobby .lobby-brand::before {
+  top: clamp(106px, 15.5vh, 138px) !important;
+}
+
+.osis-lobby .generation-stage-old .people-layer-duo {
+  transform: translateY(clamp(94px, 13.5vh, 142px)) !important;
+}
+
+.osis-lobby .generation-stage-old .period-bottom {
+  bottom: clamp(76px, 11.6vh, 126px) !important;
+  min-width: clamp(330px, 31vw, 430px) !important;
+}
+
+.osis-lobby .generation-stage-new .period-bottom {
+  bottom: clamp(76px, 11.6vh, 126px) !important;
+}
+
+@media (max-width: 760px) {
+  .osis-lobby .lobby-brand {
+    width: min(94vw, 420px) !important;
+    transform: translateY(4px) !important;
+  }
+
+  .osis-lobby .main-logo {
+    width: 66px !important;
+    margin-right: -8px !important;
+  }
+
+  .osis-lobby .school-logo {
+    width: min(52vw, 178px) !important;
+    margin-left: -6px !important;
+  }
+
+  .osis-lobby .generation-stage-old .people-layer-duo {
+    transform: translateY(42px) !important;
+  }
+
+  .osis-lobby .generation-stage-old .period-bottom,
+  .osis-lobby .generation-stage-new .period-bottom {
+    bottom: clamp(48px, 7.8vh, 76px) !important;
+    min-width: min(82vw, 330px) !important;
+  }
+}
+
+/* --------------------------------------------- Latest Parallax Lobby Patch --------------------------------------------- */
+.osis-lobby [data-parallax],
+.modern-site [data-parallax-scroll] {
+  will-change: transform;
+}
+
+.osis-lobby .lobby-brand {
+  width: min(90vw, 520px) !important;
+  grid-template-columns: auto auto !important;
+  justify-content: center !important;
+  align-items: center !important;
+  justify-items: center !important;
+  column-gap: 0 !important;
+  row-gap: 7px !important;
+  margin-inline: auto !important;
+  transform: translateY(clamp(18px, 2.6vh, 30px)) !important;
+}
+
+.osis-lobby .main-logo {
+  width: clamp(76px, 6.6vw, 104px) !important;
+  margin-right: clamp(-22px, -1.6vw, -12px) !important;
+  z-index: 2;
+}
+
+.osis-lobby .school-logo {
+  width: clamp(168px, 15vw, 238px) !important;
+  max-height: 78px !important;
+  margin-left: clamp(-14px, -1.1vw, -8px) !important;
+  z-index: 1;
+}
+
+.osis-lobby .lobby-title {
+  grid-column: 1 / -1 !important;
+  text-align: center !important;
+  margin-top: 2px !important;
+}
+
+.osis-lobby .lobby-title strong {
+  font-size: clamp(25px, 3.7vw, 52px) !important;
+}
+
+.osis-lobby .lobby-title span {
+  font-size: clamp(9px, 1vw, 14px) !important;
+}
+
+.osis-lobby .generation-selector {
+  align-items: end !important;
+}
+
+.osis-lobby .generation-stage-old {
+  transform: translateY(clamp(42px, 6vh, 78px)) !important;
+}
+
+.osis-lobby .generation-stage-new {
+  transform: translateY(clamp(42px, 6vh, 78px)) !important;
+}
+
+.osis-lobby .generation-stage-old .people-layer-duo {
+  transform: translateY(clamp(58px, 8.5vh, 96px)) !important;
+}
+
+.osis-lobby .generation-stage-old .people-layer-duo .person {
+  height: clamp(172px, 28vh, 262px) !important;
+  max-width: 40% !important;
+}
+
+.osis-lobby .generation-stage-old .period-bottom {
+  bottom: clamp(46px, 7.2vh, 82px) !important;
+  min-width: clamp(330px, 32vw, 440px) !important;
+  z-index: 44 !important;
+}
+
+.osis-lobby .generation-stage-new .people-layer-new {
+  transform: translateY(clamp(42px, 6.5vh, 86px)) !important;
+}
+
+.osis-lobby .generation-stage-new .person-ahnaf-rakyan {
+  height: clamp(190px, 31vh, 292px) !important;
+  max-width: 96% !important;
+  object-fit: contain !important;
+  filter: drop-shadow(0 24px 24px rgba(0, 0, 0, 0.32));
+}
+
+.osis-lobby .generation-stage-new .period-bottom {
+  bottom: clamp(46px, 7.2vh, 82px) !important;
+  min-width: clamp(300px, 29vw, 390px) !important;
+  z-index: 44 !important;
+}
+
+.osis-lobby .generation-stage:hover .person,
+.osis-lobby .generation-stage:focus-visible .person {
+  filter: drop-shadow(0 30px 34px rgba(103, 184, 255, 0.22));
+}
+
+.osis-lobby .stage-watermark {
+  animation: lobbyMarkFloat 6.5s ease-in-out infinite;
+}
+
+.modern-watermark {
+  animation: modernLogoOrbit 8s ease-in-out infinite;
+}
+
+.modern-leaders {
+  animation: modernLeaderFloat 7s ease-in-out infinite;
+}
+
+@keyframes lobbyMarkFloat {
+  0%, 100% { transform: translateY(0) scale(1); opacity: 0.14; }
+  50% { transform: translateY(-8px) scale(1.018); opacity: 0.2; }
+}
+
+@keyframes modernLogoOrbit {
+  0%, 100% { transform: rotate(0deg) scale(1); filter: blur(0); }
+  50% { transform: rotate(2deg) scale(1.025); filter: blur(0.2px); }
+}
+
+@keyframes modernLeaderFloat {
+  0%, 100% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(-10px) scale(1.012); }
+}
+
+body[data-generation="2024"] .legacy-site {
+  display: block !important;
+}
+
+body[data-generation="2024"] .modern-site {
+  display: none !important;
+}
+
+body[data-generation="2026"] .legacy-site {
+  display: none !important;
+}
+
+body[data-generation="2026"] .modern-site {
+  display: block !important;
+}
+
+@media (max-width: 760px) {
+  .osis-lobby .lobby-brand {
+    width: min(94vw, 360px) !important;
+    transform: translateY(10px) !important;
+  }
+
+  .osis-lobby .main-logo {
+    width: 62px !important;
+    margin-right: -12px !important;
+  }
+
+  .osis-lobby .school-logo {
+    width: min(50vw, 164px) !important;
+    margin-left: -8px !important;
+  }
+
+  .osis-lobby .generation-stage-old,
+  .osis-lobby .generation-stage-new {
+    transform: translateY(0) !important;
+  }
+
+  .osis-lobby .generation-stage-old .people-layer-duo,
+  .osis-lobby .generation-stage-new .people-layer-new {
+    transform: translateY(18px) !important;
+  }
+
+  .osis-lobby .generation-stage-old .people-layer-duo .person {
+    height: clamp(116px, 20vh, 164px) !important;
+    max-width: 42% !important;
+  }
+
+  .osis-lobby .generation-stage-new .person-ahnaf-rakyan {
+    height: clamp(126px, 22vh, 176px) !important;
+  }
+
+  .osis-lobby .generation-stage-old .period-bottom,
+  .osis-lobby .generation-stage-new .period-bottom {
+    bottom: clamp(30px, 6vh, 50px) !important;
+    min-width: min(82vw, 320px) !important;
+  }
+}
+
+/* === FINAL POLISH 2026-06-25: tighter lobby, clearer parallax, clean vimi === */
+.osis-lobby .lobby-brand {
+  top: clamp(18px, 3.2vh, 34px) !important;
+  left: 50% !important;
+  width: min(92vw, 720px) !important;
+  transform: translateX(calc(-50% + var(--scene-x, 0px) * .18)) translateY(calc(var(--scene-y, 0px) * .10)) !important;
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  place-items: center !important;
+  gap: 8px !important;
+  text-align: center !important;
+}
+
+.osis-lobby .lobby-brand::before {
+  content: "";
+  width: min(48vw, 360px);
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(252,234,194,.52), transparent);
+  order: 2;
+}
+
+.osis-lobby .lobby-brand .main-logo,
+.osis-lobby .lobby-brand .school-logo {
+  float: none !important;
+  position: static !important;
+  display: block !important;
+  object-fit: contain !important;
+  filter: drop-shadow(0 14px 22px rgba(0,0,0,.38)) !important;
+}
+
+.osis-lobby .lobby-brand .main-logo {
+  width: clamp(52px, 6.2vw, 84px) !important;
+  margin: 0 !important;
+  transform: translateX(8px) !important;
+}
+
+.osis-lobby .lobby-brand .school-logo {
+  width: clamp(92px, 12vw, 168px) !important;
+  max-height: 90px !important;
+  margin: 0 !important;
+  transform: translateX(-8px) !important;
+}
+
+.osis-lobby .lobby-brand > img.main-logo,
+.osis-lobby .lobby-brand > img.school-logo {
+  grid-row: 1 !important;
+}
+
+.osis-lobby .lobby-title {
+  order: 3 !important;
+  margin-top: 0 !important;
+  max-width: min(90vw, 680px) !important;
+  text-align: center !important;
+}
+
+.osis-lobby .lobby-title span {
+  font-size: clamp(.68rem, 1.35vw, .98rem) !important;
+  letter-spacing: .14em !important;
+}
+
+.osis-lobby .lobby-title strong {
+  font-size: clamp(1.75rem, 4.6vw, 3.7rem) !important;
+  line-height: .9 !important;
+  text-align: center !important;
+}
+
+.osis-lobby .generation-selector {
+  position: absolute !important;
+  left: 50% !important;
+  top: 50% !important;
+  width: min(88vw, 900px) !important;
+  height: min(42vh, 330px) !important;
+  transform: translate(-50%, -36%) !important;
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: clamp(42px, 9vw, 120px) !important;
+  align-items: end !important;
+  justify-items: center !important;
+}
+
+.osis-lobby .generation-stage {
+  position: relative !important;
+  width: min(38vw, 340px) !important;
+  height: min(35vh, 286px) !important;
+  min-height: 230px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: flex-end !important;
+  overflow: visible !important;
+  transform: translate3d(calc(var(--scene-x,0px) * .18), calc(var(--scene-y,0px) * .10), 0) !important;
+  transition: transform .85s cubic-bezier(.2,.8,.2,1), filter .85s ease !important;
+}
+
+.osis-lobby .generation-stage-new {
+  transform: translate3d(calc(var(--scene-x,0px) * -.16), calc(var(--scene-y,0px) * .09), 0) !important;
+}
+
+.osis-lobby .generation-stage:hover,
+.osis-lobby .generation-stage:focus-visible {
+  transform: translate3d(calc(var(--scene-x,0px) * .18), calc(var(--scene-y,0px) * .10 - 6px), 0) scaleX(1.055) scaleY(1.025) !important;
+  filter: drop-shadow(0 28px 36px rgba(91, 182, 255, .16)) !important;
+}
+
+.osis-lobby .generation-stage-new:hover,
+.osis-lobby .generation-stage-new:focus-visible {
+  transform: translate3d(calc(var(--scene-x,0px) * -.16), calc(var(--scene-y,0px) * .09 - 6px), 0) scaleX(1.055) scaleY(1.025) !important;
+}
+
+.osis-lobby .people-layer,
+.osis-lobby .people-layer-duo,
+.osis-lobby .people-layer-new {
+  position: absolute !important;
+  left: 50% !important;
+  bottom: 61px !important;
+  width: 100% !important;
+  transform: translateX(-50%) !important;
+  display: flex !important;
+  align-items: flex-end !important;
+  justify-content: center !important;
+  gap: 0 !important;
+  pointer-events: none !important;
+}
+
+.osis-lobby .generation-stage-old .people-layer-duo {
+  bottom: 60px !important;
+  transform: translateX(-50%) translateY(6px) !important;
+}
+
+.osis-lobby .generation-stage-new .people-layer-new {
+  bottom: 62px !important;
+  transform: translateX(-50%) translateY(7px) !important;
+}
+
+.osis-lobby .generation-stage-old .person {
+  height: clamp(170px, 24vh, 245px) !important;
+  width: auto !important;
+  max-width: none !important;
+  object-fit: contain !important;
+  transition: transform .9s cubic-bezier(.2,.8,.2,1), filter .9s ease !important;
+}
+
+.osis-lobby .generation-stage-old .person-wian { margin-right: -28px !important; }
+.osis-lobby .generation-stage-old .person-caesar { margin-left: -28px !important; }
+
+.osis-lobby .generation-stage-new .person-ahnaf-rakyan {
+  height: clamp(170px, 24vh, 245px) !important;
+  width: auto !important;
+  object-fit: contain !important;
+  transition: transform .9s cubic-bezier(.2,.8,.2,1), filter .9s ease !important;
+}
+
+.osis-lobby .generation-stage:hover .person {
+  transform: scale(1.045) translateY(-2px) !important;
+  filter: drop-shadow(0 20px 26px rgba(0,0,0,.35)) !important;
+}
+
+.osis-lobby .period-bottom {
+  position: absolute !important;
+  left: 50% !important;
+  bottom: 16px !important;
+  transform: translateX(-50%) !important;
+  width: min(100%, 360px) !important;
+  min-width: 280px !important;
+  height: clamp(42px, 5.2vh, 58px) !important;
+  display: grid !important;
+  place-items: center !important;
+  padding: 0 24px !important;
+  border: 1.5px solid rgba(252,234,194,.78) !important;
+  background: linear-gradient(90deg, rgba(2,10,25,.28), rgba(8,24,52,.7), rgba(2,10,25,.28)) !important;
+  border-radius: 999px !important;
+  box-shadow: 0 18px 34px rgba(0,0,0,.32), inset 0 1px 0 rgba(255,255,255,.14) !important;
+  backdrop-filter: blur(10px) !important;
+  transition: transform .85s cubic-bezier(.2,.8,.2,1), letter-spacing .85s ease, border-color .85s ease !important;
+}
+
+.osis-lobby .generation-stage:hover .period-bottom {
+  transform: translateX(-50%) scaleX(1.045) !important;
+  letter-spacing: .012em !important;
+  border-color: rgba(147, 213, 255, .9) !important;
+}
+
+.osis-lobby .period-bottom strong {
+  font-size: clamp(1rem, 2.15vw, 1.72rem) !important;
+  line-height: 1 !important;
+  white-space: nowrap !important;
+}
+
+/* Logo baru Al-Fityan lebih bersih, tanpa terasa seperti poster tempelan manusia terakhir di bumi. */
+.osis-lobby .school-logo {
+  content: url("../assets/assets2025/Lobby Section/al-fityan-logo-wide.png") !important;
+}
+
+/* Bersihkan Visi Misi modern: tanpa teks penjelasan bawah dan tanpa kartu kotak-kotak kaku. */
+.modern-vimi .modern-section-head h2 {
+  max-width: 860px !important;
+  font-size: clamp(1.9rem, 5vw, 4.2rem) !important;
+  line-height: .98 !important;
+}
+
+.modern-vimi .modern-vimi-grid {
+  gap: clamp(18px, 2vw, 32px) !important;
+}
+
+.modern-vimi .modern-panel,
+.modern-vimi .modern-panel:not(.modern-vision) {
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  padding: clamp(18px, 3vw, 34px) 0 !important;
+  position: relative !important;
+}
+
+.modern-vimi .modern-panel::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: min(96px, 34%);
+  height: 2px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, rgba(147,213,255,.95), rgba(252,234,194,.8), transparent);
+}
+
+.modern-vimi .modern-panel p {
+  display: none !important;
+}
+
+.modern-vimi .modern-vision h3 {
+  max-width: 1040px !important;
+  font-size: clamp(1.45rem, 3.1vw, 3.15rem) !important;
+  line-height: 1.08 !important;
+  letter-spacing: -.045em !important;
+}
+
+.modern-vimi .modern-panel:not(.modern-vision) h3 {
+  font-size: clamp(1.15rem, 2.1vw, 2.15rem) !important;
+  line-height: 1.08 !important;
+}
+
+/* Parallax yang benar-benar kelihatan, karena parallax tak terlihat itu cuma dekorasi psikologis. */
+.osis-lobby .background-layer img {
+  transform: translate3d(calc(var(--scene-x,0px) * -.55), calc(var(--scene-y,0px) * -.45), 0) scale(1.055) !important;
+  transition: transform 1.1s cubic-bezier(.2,.8,.2,1) !important;
+}
+
+.osis-lobby .stage-watermark {
+  transform: translate3d(calc(var(--scene-x,0px) * .45), calc(var(--scene-y,0px) * .28), 0) scale(1.02) !important;
+  transition: transform 1s cubic-bezier(.2,.8,.2,1), opacity .8s ease !important;
+}
+
+.modern-hero::before {
+  transform: translate3d(calc(var(--modern-parallax-x,0px) * -1), calc(var(--modern-parallax-y,0px) * -1), 0) scale(1.04) !important;
+}
+
+@media (max-width: 820px) {
+  .osis-lobby .lobby-brand { top: 18px !important; }
+  .osis-lobby .generation-selector {
+    top: 54% !important;
+    width: min(94vw, 420px) !important;
+    height: auto !important;
+    grid-template-columns: 1fr !important;
+    gap: 28px !important;
+    transform: translate(-50%, -28%) !important;
+  }
+  .osis-lobby .generation-stage {
+    width: min(92vw, 340px) !important;
+    height: 220px !important;
+    min-height: 210px !important;
+  }
+  .osis-lobby .generation-stage-old .person,
+  .osis-lobby .generation-stage-new .person-ahnaf-rakyan {
+    height: 150px !important;
+  }
+  .osis-lobby .people-layer,
+  .osis-lobby .people-layer-duo,
+  .osis-lobby .people-layer-new {
+    bottom: 56px !important;
+  }
+  .osis-lobby .period-bottom {
+    bottom: 10px !important;
+    min-width: min(80vw, 280px) !important;
+  }
+}
+
+/* === FINAL HOTFIX 2026-06-25: lobby kembali rapi + Visi Misi dikecilkan === */
+body.is-lobby {
+  overflow: hidden !important;
+}
+
+.osis-lobby .lobby-brand {
+  position: absolute !important;
+  top: clamp(26px, 5.8vh, 52px) !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: min(92vw, 720px) !important;
+  display: grid !important;
+  grid-template-columns: auto auto !important;
+  grid-template-rows: auto auto !important;
+  justify-content: center !important;
+  justify-items: center !important;
+  align-items: center !important;
+  column-gap: clamp(14px, 2.4vw, 30px) !important;
+  row-gap: 8px !important;
+  text-align: center !important;
+  z-index: 8 !important;
+}
+
+.osis-lobby .lobby-brand::before {
+  grid-column: 1 / -1 !important;
+  top: calc(100% - 5px) !important;
+  width: min(420px, 64vw) !important;
+  opacity: .4 !important;
+}
+
+.osis-lobby .lobby-brand .main-logo,
+.osis-lobby .lobby-brand .school-logo {
+  grid-row: 1 !important;
+  position: relative !important;
+  transform: none !important;
+  margin: 0 !important;
+  object-fit: contain !important;
+}
+
+.osis-lobby .lobby-brand .main-logo {
+  width: clamp(48px, 5.2vw, 72px) !important;
+}
+
+.osis-lobby .lobby-brand .school-logo {
+  width: clamp(92px, 9vw, 138px) !important;
+  max-height: 70px !important;
+}
+
+.osis-lobby .lobby-title {
+  grid-column: 1 / -1 !important;
+  grid-row: 2 !important;
+  width: 100% !important;
+  max-width: 620px !important;
+  margin: 4px auto 0 !important;
+  text-align: center !important;
+  transform: none !important;
+}
+
+.osis-lobby .lobby-title span {
+  display: block !important;
+  font-size: clamp(.7rem, 1.1vw, .92rem) !important;
+  letter-spacing: .16em !important;
+}
+
+.osis-lobby .lobby-title strong {
+  display: block !important;
+  font-size: clamp(2.05rem, 4.05vw, 3.55rem) !important;
+  line-height: .92 !important;
+  text-align: center !important;
+}
+
+.osis-lobby .generation-selector {
+  top: 61% !important;
+  left: 50% !important;
+  width: min(86vw, 850px) !important;
+  height: 300px !important;
+  transform: translate(-50%, -50%) !important;
+  gap: clamp(54px, 9vw, 128px) !important;
+  align-items: end !important;
+}
+
+.osis-lobby .generation-stage {
+  width: min(36vw, 330px) !important;
+  height: 258px !important;
+  min-height: 258px !important;
+}
+
+.osis-lobby .generation-stage-old,
+.osis-lobby .generation-stage-new {
+  transform: translate3d(calc(var(--scene-x,0px) * .08), calc(var(--scene-y,0px) * .05), 0) !important;
+}
+
+.osis-lobby .generation-stage-new {
+  transform: translate3d(calc(var(--scene-x,0px) * -.08), calc(var(--scene-y,0px) * .05), 0) !important;
+}
+
+.osis-lobby .generation-stage-old .people-layer-duo,
+.osis-lobby .generation-stage-new .people-layer-new {
+  bottom: 58px !important;
+  transform: translateX(-50%) translateY(0) !important;
+}
+
+.osis-lobby .generation-stage-old .person {
+  height: clamp(160px, 23vh, 218px) !important;
+}
+
+.osis-lobby .generation-stage-new .person-ahnaf-rakyan {
+  height: clamp(158px, 22.5vh, 214px) !important;
+}
+
+.osis-lobby .period-bottom {
+  bottom: 18px !important;
+  width: min(100%, 330px) !important;
+  min-width: 260px !important;
+  height: 46px !important;
+}
+
+.osis-lobby .period-bottom strong {
+  font-size: clamp(1rem, 1.75vw, 1.45rem) !important;
+}
+
+.osis-lobby .instagram-link {
+  position: absolute !important;
+  left: 50% !important;
+  right: auto !important;
+  bottom: 22px !important;
+  top: auto !important;
+  transform: translateX(-50%) !important;
+  width: max-content !important;
+  z-index: 8 !important;
+}
+
+.osis-lobby .instagram-link a {
+  font-size: .76rem !important;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+/* Kecilkan Visi Misi modern, karena ternyata hurufnya sempat cosplay billboard tol. */
+.modern-vimi .modern-section-head {
+  margin-bottom: clamp(20px, 3.5vw, 42px) !important;
+}
+
+.modern-vimi .modern-section-head h2 {
+  max-width: 720px !important;
+  font-size: clamp(1.45rem, 3.25vw, 2.85rem) !important;
+  line-height: 1.05 !important;
+  letter-spacing: -.035em !important;
+}
+
+.modern-vimi .modern-vision h3 {
+  max-width: 860px !important;
+  font-size: clamp(1.08rem, 2.1vw, 1.9rem) !important;
+  line-height: 1.18 !important;
+  letter-spacing: -.025em !important;
+  font-weight: 800 !important;
+}
+
+.modern-vimi .modern-panel:not(.modern-vision) h3 {
+  font-size: clamp(.98rem, 1.45vw, 1.35rem) !important;
+  line-height: 1.18 !important;
+  letter-spacing: -.015em !important;
+}
+
+.modern-vimi .modern-panel {
+  padding-block: clamp(12px, 2vw, 24px) !important;
+}
+
+@media (max-width: 820px) {
+  body.is-lobby { overflow-y: auto !important; }
+
+  .osis-lobby .lobby-brand {
+    top: 18px !important;
+    width: min(94vw, 420px) !important;
+    column-gap: 12px !important;
+  }
+
+  .osis-lobby .lobby-brand .main-logo { width: 46px !important; }
+  .osis-lobby .lobby-brand .school-logo { width: 88px !important; }
+
+  .osis-lobby .lobby-title strong {
+    font-size: clamp(1.65rem, 9vw, 2.4rem) !important;
+  }
+
+  .osis-lobby .generation-selector {
+    top: 58% !important;
+    width: min(94vw, 390px) !important;
+    height: auto !important;
+    grid-template-columns: 1fr !important;
+    gap: 22px !important;
+    transform: translate(-50%, -30%) !important;
+  }
+
+  .osis-lobby .generation-stage {
+    width: min(90vw, 320px) !important;
+    height: 205px !important;
+    min-height: 205px !important;
+  }
+
+  .osis-lobby .generation-stage-old .person,
+  .osis-lobby .generation-stage-new .person-ahnaf-rakyan {
+    height: 142px !important;
+  }
+
+  .osis-lobby .period-bottom {
+    height: 40px !important;
+    min-width: min(78vw, 250px) !important;
+  }
+}
+
+/* === FINAL 26/27 DESIGN POLISH: Visi-Misi, Alumni, slower motion, tighter lobby logos === */
+.osis-lobby .lobby-brand {
+  top: 34px !important;
+  left: 50% !important;
+  width: min(94vw, 560px) !important;
+  display: grid !important;
+  grid-template-columns: auto auto !important;
+  justify-content: center !important;
+  justify-items: center !important;
+  align-items: center !important;
+  column-gap: clamp(10px, 1.2vw, 18px) !important;
+  row-gap: 8px !important;
+  transform: translateX(-50%) !important;
+}
+
+.osis-lobby .lobby-brand .main-logo {
+  width: clamp(54px, 5.1vw, 76px) !important;
+  justify-self: end !important;
+}
+
+.osis-lobby .lobby-brand .school-logo {
+  width: clamp(112px, 9.2vw, 154px) !important;
+  max-height: 82px !important;
+  justify-self: start !important;
+}
+
+.osis-lobby .lobby-title {
+  grid-column: 1 / -1 !important;
+  margin-top: 2px !important;
+}
+
+/* Animasi diperlambat sedikit, karena website bukan lomba lari antar elemen. */
+.modern-site *,
+.osis-lobby * {
+  transition-duration: .95s !important;
+}
+
+.modern-reveal,
+.modern-section,
+.modern-panel,
+.modern-quote-row blockquote,
+.modern-division-grid article {
+  transition: opacity 1.05s cubic-bezier(.16,1,.3,1),
+              transform 1.05s cubic-bezier(.16,1,.3,1),
+              filter 1.05s cubic-bezier(.16,1,.3,1) !important;
+}
+
+/* Visi Misi: hapus headline lama dan ubah jadi editorial quote futuristik */
+.modern-vimi {
+  position: relative !important;
+  overflow: hidden !important;
+  padding-top: clamp(84px, 8vw, 132px) !important;
+}
+
+.modern-vimi::before {
+  content: "";
+  position: absolute;
+  inset: 8% auto auto 7%;
+  width: clamp(160px, 24vw, 360px);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(124,203,255,.16), transparent 68%);
+  filter: blur(18px);
+  opacity: .75;
+  pointer-events: none;
+  animation: modernFloatOrb 10s ease-in-out infinite alternate;
+}
+
+.modern-vimi::after {
+  content: "";
+  position: absolute;
+  right: 9%;
+  top: 18%;
+  width: clamp(180px, 27vw, 430px);
+  height: clamp(180px, 27vw, 430px);
+  border: 1px solid rgba(148,213,255,.12);
+  border-radius: 42% 58% 48% 52%;
+  box-shadow: inset 0 0 42px rgba(124,203,255,.05);
+  opacity: .75;
+  pointer-events: none;
+  animation: modernOrbitSoft 15s linear infinite;
+}
+
+.modern-vimi .modern-vimi-head-clean {
+  margin-bottom: clamp(14px, 2.2vw, 28px) !important;
+}
+
+.modern-vimi .modern-vimi-head-clean h2,
+.modern-vimi .modern-section-head h2 {
+  display: none !important;
+}
+
+.modern-vimi .modern-vimi-grid {
+  position: relative !important;
+  display: grid !important;
+  grid-template-columns: minmax(0, 1.15fr) minmax(260px, .85fr) !important;
+  gap: clamp(24px, 4vw, 64px) !important;
+  align-items: start !important;
+  isolation: isolate !important;
+}
+
+.modern-vimi .modern-panel,
+.modern-vimi .modern-panel:not(.modern-vision) {
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  backdrop-filter: none !important;
+}
+
+.modern-vimi .modern-panel::before,
+.modern-vimi .modern-panel::after {
+  display: none !important;
+}
+
+.modern-vimi .modern-vision {
+  grid-row: span 3 !important;
+  padding: clamp(18px, 3vw, 38px) 0 0 clamp(12px, 2vw, 26px) !important;
+}
+
+.modern-vimi .modern-vision::before {
+  content: "“" !important;
+  display: block !important;
+  position: absolute !important;
+  left: 0 !important;
+  top: -28px !important;
+  font-family: Georgia, serif !important;
+  font-size: clamp(7rem, 16vw, 15rem) !important;
+  line-height: .72 !important;
+  color: rgba(147,213,255,.18) !important;
+  text-shadow: 0 0 38px rgba(147,213,255,.22) !important;
+  z-index: -1 !important;
+}
+
+.modern-vimi .modern-vision span,
+.modern-vimi .modern-panel span {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  color: #9bd2ff !important;
+  letter-spacing: .18em !important;
+  font-size: clamp(.72rem, .9vw, .86rem) !important;
+  margin-bottom: clamp(8px, 1vw, 14px) !important;
+}
+
+.modern-vimi .modern-vision span::after,
+.modern-vimi .modern-panel span::after {
+  content: "";
+  display: inline-block;
+  width: 54px;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(155,210,255,.9), rgba(255,232,184,.55), transparent);
+}
+
+.modern-vimi .modern-vision h3 {
+  max-width: 920px !important;
+  font-size: clamp(1.35rem, 2.6vw, 2.65rem) !important;
+  line-height: 1.14 !important;
+  letter-spacing: -.038em !important;
+  font-weight: 850 !important;
+  text-wrap: balance !important;
+}
+
+.modern-vimi .modern-panel:not(.modern-vision) {
+  position: relative !important;
+  padding: clamp(14px, 2vw, 26px) 0 clamp(14px, 2vw, 26px) clamp(22px, 2.8vw, 38px) !important;
+  border-left: 1px solid rgba(147,213,255,.28) !important;
+}
+
+.modern-vimi .modern-panel:not(.modern-vision)::after {
+  content: "" !important;
+  display: block !important;
+  position: absolute !important;
+  left: -3px !important;
+  top: clamp(18px, 2.2vw, 28px) !important;
+  width: 5px !important;
+  height: 36px !important;
+  border-radius: 999px !important;
+  background: linear-gradient(180deg, #9bd2ff, #ffe6ad) !important;
+  box-shadow: 0 0 22px rgba(155,210,255,.35) !important;
+}
+
+.modern-vimi .modern-panel:not(.modern-vision) h3 {
+  font-size: clamp(1rem, 1.45vw, 1.48rem) !important;
+  line-height: 1.12 !important;
+  max-width: 320px !important;
+}
+
+/* Pesan Alumni: editorial quote, no generic cards. */
+.modern-alumni {
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.modern-alumni .modern-section-head h2 {
+  max-width: 760px !important;
+  font-size: clamp(1.75rem, 3.4vw, 3.55rem) !important;
+  line-height: 1.02 !important;
+  letter-spacing: -.04em !important;
+}
+
+.modern-alumni .modern-quote-row {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: clamp(22px, 4vw, 72px) !important;
+  align-items: start !important;
+  margin-top: clamp(32px, 5vw, 74px) !important;
+}
+
+.modern-alumni .modern-quote-row blockquote {
+  position: relative !important;
+  min-height: 0 !important;
+  padding: clamp(34px, 4vw, 58px) 0 0 0 !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  font-size: clamp(1rem, 1.42vw, 1.42rem) !important;
+  line-height: 1.25 !important;
+  text-wrap: balance !important;
+}
+
+.modern-alumni .modern-quote-row blockquote::before {
+  content: "“" !important;
+  position: absolute !important;
+  top: -8px !important;
+  left: -6px !important;
+  font-family: Georgia, serif !important;
+  font-size: clamp(4.5rem, 8vw, 7.5rem) !important;
+  line-height: 1 !important;
+  color: rgba(147,213,255,.23) !important;
+  text-shadow: 0 0 30px rgba(147,213,255,.25) !important;
+}
+
+.modern-alumni .modern-quote-row blockquote::after {
+  content: "" !important;
+  position: absolute !important;
+  left: 0 !important;
+  bottom: -30px !important;
+  width: min(100%, 300px) !important;
+  height: 2px !important;
+  border-radius: 999px !important;
+  background: linear-gradient(90deg, rgba(147,213,255,.85), rgba(255,232,184,.65), transparent) !important;
+}
+
+.modern-alumni .modern-quote-row blockquote:nth-child(2) {
+  margin-top: clamp(28px, 4.5vw, 68px) !important;
+}
+
+.modern-alumni .modern-quote-row blockquote:nth-child(3) {
+  margin-top: clamp(-12px, 2vw, 28px) !important;
+}
+
+@keyframes modernFloatOrb {
+  from { transform: translate3d(0,0,0) scale(1); }
+  to { transform: translate3d(22px,28px,0) scale(1.08); }
+}
+
+@keyframes modernOrbitSoft {
+  from { transform: rotate(0deg) scale(1); }
+  to { transform: rotate(360deg) scale(1.04); }
+}
+
+@media (max-width: 900px) {
+  .modern-vimi .modern-vimi-grid,
+  .modern-alumni .modern-quote-row {
+    grid-template-columns: 1fr !important;
+  }
+  .modern-vimi .modern-vision { grid-row: auto !important; }
+  .modern-alumni .modern-quote-row blockquote:nth-child(n) { margin-top: 0 !important; }
+}
+
+@media (max-width: 820px) {
+  .osis-lobby .lobby-brand {
+    top: 18px !important;
+    column-gap: 9px !important;
+    width: min(94vw, 360px) !important;
+  }
+  .osis-lobby .lobby-brand .main-logo { width: 48px !important; }
+  .osis-lobby .lobby-brand .school-logo { width: 94px !important; }
+}
+
+/* === FINAL HOTFIX 2026-06-25: Visi Misi tidak kabur, logo lobby tidak perang saudara === */
+html,
+body {
+  overflow-x: hidden !important;
+}
+
+/* Lobby logos: paksa dekat, center, dan tidak mental karena parallax. */
+.osis-lobby .lobby-brand {
+  position: absolute !important;
+  top: clamp(22px, 3.2vh, 34px) !important;
+  left: 50% !important;
+  right: auto !important;
+  width: min(92vw, 620px) !important;
+  transform: translateX(-50%) !important;
+  display: grid !important;
+  grid-template-columns: auto auto !important;
+  justify-content: center !important;
+  align-items: center !important;
+  justify-items: center !important;
+  column-gap: clamp(6px, .8vw, 12px) !important;
+  row-gap: clamp(6px, .8vw, 10px) !important;
+  text-align: center !important;
+  pointer-events: none !important;
+}
+
+.osis-lobby .lobby-brand::before {
+  content: "" !important;
+  grid-column: 1 / -1 !important;
+  grid-row: 2 !important;
+  width: min(420px, 64vw) !important;
+  height: 1px !important;
+  background: linear-gradient(90deg, transparent, rgba(255,232,184,.34), rgba(147,213,255,.24), transparent) !important;
+  order: 2 !important;
+}
+
+.osis-lobby .lobby-brand .main-logo,
+.osis-lobby .lobby-brand .school-logo {
+  display: block !important;
+  object-fit: contain !important;
+  translate: 0 0 !important;
+  filter: drop-shadow(0 12px 22px rgba(0,0,0,.34)) !important;
+  animation: lobbyLogoBreathe 5.8s ease-in-out infinite alternate !important;
+}
+
+.osis-lobby .lobby-brand .main-logo {
+  width: clamp(58px, 5vw, 74px) !important;
+  height: auto !important;
+  max-height: none !important;
+  justify-self: end !important;
+}
+
+.osis-lobby .lobby-brand .school-logo {
+  width: clamp(118px, 9vw, 158px) !important;
+  height: auto !important;
+  max-height: none !important;
+  justify-self: start !important;
+}
+
+.osis-lobby .lobby-title {
+  grid-column: 1 / -1 !important;
+  grid-row: 3 !important;
+  margin: 0 !important;
+  padding-top: clamp(4px, .5vw, 8px) !important;
+  text-align: center !important;
+  justify-self: center !important;
+  transform: none !important;
+  width: min(92vw, 620px) !important;
+}
+
+.osis-lobby .lobby-title span {
+  display: block !important;
+  font-size: clamp(.64rem, .9vw, .86rem) !important;
+  letter-spacing: .18em !important;
+  line-height: 1.1 !important;
+  margin-bottom: clamp(4px, .5vw, 7px) !important;
+  color: #ffe9b4 !important;
+}
+
+.osis-lobby .lobby-title strong {
+  display: block !important;
+  font-size: clamp(2rem, 4.1vw, 4rem) !important;
+  line-height: .88 !important;
+  letter-spacing: -.04em !important;
+  text-align: center !important;
+  text-wrap: balance !important;
+}
+
+@keyframes lobbyLogoBreathe {
+  from { transform: translateY(0) scale(1); }
+  to { transform: translateY(2px) scale(1.025); }
+}
+
+/* Visi Misi 26/27: rapikan total, tidak overflow, kutipan tidak menabrak label. */
+.modern-site,
+.modern-section,
+.modern-vimi,
+.modern-alumni {
+  overflow-x: clip !important;
+}
+
+.modern-vimi {
+  padding-top: clamp(72px, 8vw, 112px) !important;
+  padding-bottom: clamp(82px, 8vw, 126px) !important;
+  isolation: isolate !important;
+}
+
+.modern-vimi .modern-section-head,
+.modern-vimi .modern-vimi-head-clean {
+  max-width: min(1120px, 88vw) !important;
+  margin: 0 auto clamp(28px, 4vw, 54px) !important;
+  padding: 0 !important;
+}
+
+.modern-vimi .modern-section-head p,
+.modern-vimi .modern-vimi-head-clean p {
+  display: inline-block !important;
+  position: relative !important;
+  z-index: 2 !important;
+  font-size: clamp(.76rem, .95vw, .92rem) !important;
+  letter-spacing: .18em !important;
+  color: #9ed5ff !important;
+}
+
+.modern-vimi .modern-vimi-grid {
+  width: min(1120px, 88vw) !important;
+  max-width: 1120px !important;
+  margin: 0 auto !important;
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: clamp(26px, 3.4vw, 56px) !important;
+  align-items: start !important;
+  overflow: visible !important;
+}
+
+.modern-vimi .modern-panel,
+.modern-vimi .modern-panel:not(.modern-vision),
+.modern-vimi .modern-vision {
+  min-width: 0 !important;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  backdrop-filter: none !important;
+}
+
+.modern-vimi .modern-vision {
+  grid-column: 1 / -1 !important;
+  grid-row: auto !important;
+  position: relative !important;
+  width: 100% !important;
+  max-width: 960px !important;
+  margin: 0 auto clamp(8px, 1vw, 18px) !important;
+  padding: clamp(28px, 4vw, 50px) 0 0 clamp(44px, 5.5vw, 82px) !important;
+}
+
+.modern-vimi .modern-vision::before {
+  content: "“" !important;
+  display: block !important;
+  position: absolute !important;
+  left: 0 !important;
+  top: clamp(0px, .5vw, 8px) !important;
+  z-index: -1 !important;
+  font-family: Georgia, serif !important;
+  font-size: clamp(6rem, 10vw, 10rem) !important;
+  line-height: .72 !important;
+  color: rgba(147,213,255,.18) !important;
+  text-shadow: 0 0 38px rgba(147,213,255,.2) !important;
+  pointer-events: none !important;
+}
+
+.modern-vimi .modern-vision span,
+.modern-vimi .modern-panel span {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  margin-bottom: clamp(8px, .9vw, 12px) !important;
+  font-size: clamp(.68rem, .82vw, .82rem) !important;
+  letter-spacing: .2em !important;
+  color: #9ed5ff !important;
+}
+
+.modern-vimi .modern-vision span::after,
+.modern-vimi .modern-panel span::after {
+  content: "" !important;
+  display: inline-block !important;
+  width: clamp(38px, 5vw, 72px) !important;
+  height: 1px !important;
+  background: linear-gradient(90deg, rgba(158,213,255,.9), rgba(255,232,184,.55), transparent) !important;
+}
+
+.modern-vimi .modern-vision h3 {
+  width: 100% !important;
+  max-width: 880px !important;
+  margin: 0 !important;
+  font-size: clamp(1.18rem, 2.15vw, 2.15rem) !important;
+  line-height: 1.18 !important;
+  letter-spacing: -.035em !important;
+  font-weight: 850 !important;
+  text-wrap: balance !important;
+  overflow-wrap: break-word !important;
+}
+
+.modern-vimi .modern-panel:not(.modern-vision) {
+  position: relative !important;
+  padding: clamp(12px, 1.4vw, 20px) 0 0 clamp(18px, 2vw, 28px) !important;
+  border-left: 1px solid rgba(147,213,255,.32) !important;
+}
+
+.modern-vimi .modern-panel:not(.modern-vision)::before {
+  content: "" !important;
+  display: block !important;
+  position: absolute !important;
+  left: -3px !important;
+  top: clamp(18px, 2vw, 26px) !important;
+  width: 5px !important;
+  height: 34px !important;
+  border-radius: 999px !important;
+  background: linear-gradient(180deg, #9ed5ff, #ffe8b6) !important;
+  box-shadow: 0 0 22px rgba(147,213,255,.3) !important;
+}
+
+.modern-vimi .modern-panel:not(.modern-vision)::after {
+  display: none !important;
+}
+
+.modern-vimi .modern-panel:not(.modern-vision) h3 {
+  width: 100% !important;
+  max-width: 300px !important;
+  margin: 0 !important;
+  font-size: clamp(.94rem, 1.28vw, 1.28rem) !important;
+  line-height: 1.14 !important;
+  letter-spacing: -.02em !important;
+  overflow-wrap: break-word !important;
+}
+
+/* Alumni tetap modern, tapi tidak menabrak layar. Manusia suka teks besar, layar tidak. */
+.modern-alumni .modern-section-head h2 {
+  max-width: 720px !important;
+  font-size: clamp(1.55rem, 3vw, 3.05rem) !important;
+  line-height: 1.06 !important;
+}
+
+.modern-alumni .modern-quote-row blockquote {
+  font-size: clamp(.94rem, 1.22vw, 1.24rem) !important;
+  line-height: 1.28 !important;
+}
+
+@media (max-width: 900px) {
+  .modern-vimi .modern-vimi-grid {
+    grid-template-columns: 1fr !important;
+    gap: 26px !important;
+  }
+  .modern-vimi .modern-vision {
+    max-width: 100% !important;
+    padding-left: clamp(34px, 8vw, 58px) !important;
+  }
+  .modern-vimi .modern-panel:not(.modern-vision) h3 {
+    max-width: 100% !important;
+  }
+}
+
+@media (max-width: 740px) {
+  .osis-lobby .lobby-brand {
+    top: 18px !important;
+    column-gap: 6px !important;
+    width: min(94vw, 360px) !important;
+  }
+  .osis-lobby .lobby-brand .main-logo {
+    width: 46px !important;
+  }
+  .osis-lobby .lobby-brand .school-logo {
+    width: 94px !important;
+  }
+  .osis-lobby .lobby-title strong {
+    font-size: clamp(1.45rem, 8vw, 2.4rem) !important;
+  }
+  .modern-vimi .modern-vision h3 {
+    font-size: clamp(1.08rem, 6vw, 1.42rem) !important;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   HOTFIX 2026-07-04 — Lobby title, transisi blur, garis vimi, divisi timing
+   ══════════════════════════════════════════════════════════════════════════ */
+
+
+/* ── 1. LOBBY TITLE: LEBIH BESAR & SATU BARIS (NOWRAP) ─────────────────── */
+
+.osis-lobby .lobby-title strong {
+  font-size:   clamp(2rem, 4.6vw, 4.4rem) !important;
+  line-height: 0.9 !important;
+  white-space: nowrap !important;           /* paksa satu baris */
+  letter-spacing: -0.01em !important;
+}
+
+/* Kompakkan brand agar logo+judul lebih rapat (judul tidak slip ke bawah) */
+.osis-lobby .lobby-brand {
+  row-gap: clamp(3px, 0.3vw, 6px) !important;
+}
+
+.osis-lobby .lobby-brand .main-logo {
+  width: clamp(44px, 4vw, 60px) !important;
+  max-height: 58px !important;
+}
+
+.osis-lobby .lobby-brand .school-logo {
+  width: clamp(90px, 7.5vw, 118px) !important;
+  max-height: 58px !important;
+  object-fit: contain !important;
+}
+
+/* Selector tetap turun sehingga ada gap lega dari judul */
+.osis-lobby .generation-selector {
+  top: 66% !important;
+}
+
+/* Mobile: izinkan wrap agar tidak overflow layar kecil */
+@media (max-width: 640px) {
+  .osis-lobby .lobby-title strong {
+    white-space: normal !important;
+    font-size: clamp(1.6rem, 7vw, 2.4rem) !important;
+  }
+}
+
+
+/* ── 2. TRANSISI HOME → VISI MISI: BLUR SEPARATOR ──────────────────────── */
+
+/* Perlebar dan perkuat efek blur di bagian bawah hero agar tidak ada
+   "garis keras" biru tua → biru terang ketika scroll ke Visi Misi */
+.modern-hero::after {
+  height:          clamp(180px, 28vh, 320px) !important;
+  background:
+    linear-gradient(
+      to bottom,
+      transparent          0%,
+      rgba(5, 20, 50, 0.5) 30%,
+      rgba(5, 22, 54, 0.88) 60%,
+      rgba(4, 17, 44, 1)   100%
+    ) !important;
+  backdrop-filter: blur(24px) saturate(0.6) !important;
+  -webkit-backdrop-filter: blur(24px) saturate(0.6) !important;
+}
+
+/* Tambah ::before pada section Visi Misi untuk "menyambut" dengan fade */
+#modern-vimi::before {
+  content: "";
+  display: block;
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: clamp(80px, 12vh, 140px);
+  background: linear-gradient(
+    to bottom,
+    rgba(4, 17, 44, 1) 0%,
+    rgba(6, 22, 56, 0) 100%
+  );
+  pointer-events: none;
+  z-index: 2;
+}
+
+#modern-vimi {
+  position: relative;
+}
+
+
+/* ── 3. GARIS VISI MISI: HAPUS SEMUA GARIS YANG MEMOTONG TANDA PETIK ───── */
+
+/* Hapus ::after pada SETIAP span di modern-vimi tanpa kecuali.
+   Sebelumnya hanya dua selector, tapi ada span lain di nested elements. */
+.modern-vimi span::after,
+.modern-vimi .modern-vision span::after,
+.modern-vimi .modern-panel span::after,
+.modern-vimi .modern-section-head span::after,
+.modern-vimi *::after {
+  display: none !important;
+  content: none !important;
+}
+
+/* Pastikan ::before quotation mark tidak tertimpa */
+.modern-vimi .modern-vision::before {
+  z-index: 0 !important;
+}
+
+/* Kembalikan ::before yang masih dipakai (bukan garis) */
+.modern-vimi .modern-section::before {
+  display: block !important;
+  content: "" !important;
+}
+
+.modern-vimi .modern-panel::before {
+  display: block !important;
+  content: "" !important;
+}
+
+
+/* ── 4. DIVISI STAGGER: KURANGI 0.5 DETIK PER KARTU (100ms antar kartu) ── */
+
+/* Base state: kartu tersembunyi, siap muncul dari bawah + fade */
+.modern-division-grid article {
+  opacity:   0 !important;
+  transform: translateY(30px) !important;
+  filter:    blur(4px) !important;
+  transition:
+    opacity   1.1s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 1.1s cubic-bezier(0.16, 1, 0.3, 1),
+    filter    1.1s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.modern-division-grid article.is-visible {
+  opacity:   1 !important;
+  transform: translateY(0) !important;
+  filter:    blur(0) !important;
+}
+
+/* Delay 100ms per kartu (600ms - 500ms = 100ms antar kartu) */
+.modern-division-grid article:nth-child(1) { transition-delay: 0ms   !important; }
+.modern-division-grid article:nth-child(2) { transition-delay: 100ms !important; }
+.modern-division-grid article:nth-child(3) { transition-delay: 200ms !important; }
+.modern-division-grid article:nth-child(4) { transition-delay: 300ms !important; }
+.modern-division-grid article:nth-child(5) { transition-delay: 400ms !important; }
+.modern-division-grid article:nth-child(6) { transition-delay: 500ms !important; }
+.modern-division-grid article:nth-child(7) { transition-delay: 600ms !important; }
+.modern-division-grid article:nth-child(8) { transition-delay: 700ms !important; }
+
+
+/* ── 5. LIGHTBOX ANTI-KEDIP (slide-out via @keyframes) ─────────────────── */
+
+.division-lightbox,
+.division-lightbox * {
+  transition-duration: initial !important;
+}
+
+.division-lightbox__panel {
+  transition: transform 400ms cubic-bezier(0.16,1,0.3,1), filter 400ms ease !important;
+}
+
+.division-lightbox img {
+  transition: none !important;
+  will-change: transform, opacity, filter;
+}
+
+.division-lightbox img.slide-out-left  { animation: lbSlideOutLeft  200ms ease forwards !important; }
+.division-lightbox img.slide-out-right { animation: lbSlideOutRight 200ms ease forwards !important; }
+.division-lightbox img.slide-in-right  { animation: lbSlideInRight  420ms cubic-bezier(0.16,1,0.3,1) both !important; }
+.division-lightbox img.slide-in-left   { animation: lbSlideInLeft   420ms cubic-bezier(0.16,1,0.3,1) both !important; }
+
+@keyframes lbSlideOutLeft  { from{opacity:1;filter:blur(0);transform:translateX(0) scale(1)}    to{opacity:0;filter:blur(10px);transform:translateX(-64px) scale(0.985)} }
+@keyframes lbSlideOutRight { from{opacity:1;filter:blur(0);transform:translateX(0) scale(1)}    to{opacity:0;filter:blur(10px);transform:translateX(64px)  scale(0.985)} }
+@keyframes lbSlideInRight  { from{opacity:0;filter:blur(10px);transform:translateX(64px)  scale(0.985)} to{opacity:1;filter:blur(0);transform:translateX(0) scale(1)} }
+@keyframes lbSlideInLeft   { from{opacity:0;filter:blur(10px);transform:translateX(-64px) scale(0.985)} to{opacity:1;filter:blur(0);transform:translateX(0) scale(1)} }
+
+
+/* ── 6. PERSONA LOBBY: TINGGI SETARA ───────────────────────────────────── */
+
+.osis-lobby .generation-stage-old .people-layer-duo .person-wian,
+.osis-lobby .generation-stage-old .people-layer-duo .person-caesar {
+  height: clamp(190px, 26vh, 255px) !important;
+  width: auto !important;
+  max-width: 56% !important;
+  object-fit: contain !important;
+  object-position: bottom center !important;
+}
+
+.osis-lobby .generation-stage-new .person-ahnaf-rakyan {
+  height: clamp(190px, 26vh, 255px) !important;
+  width: auto !important;
+  max-width: 94% !important;
+  object-fit: contain !important;
+  object-position: bottom center !important;
+}
+
+.osis-lobby .generation-stage-old .people-layer-duo,
+.osis-lobby .generation-stage-new .people-layer-new {
+  align-items: flex-end !important;
+}
+
+.osis-lobby .generation-stage-old .person-wian  { margin-right: -22px !important; }
+.osis-lobby .generation-stage-old .person-caesar { margin-left: -22px !important; }
+
+@media (max-width: 820px) {
+  .osis-lobby .generation-stage-old .people-layer-duo .person-wian,
+  .osis-lobby .generation-stage-old .people-layer-duo .person-caesar,
+  .osis-lobby .generation-stage-new .person-ahnaf-rakyan {
+    height: clamp(138px, 20vh, 190px) !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .osis-lobby .generation-stage-old .people-layer-duo .person-wian,
+  .osis-lobby .generation-stage-old .people-layer-duo .person-caesar,
+  .osis-lobby .generation-stage-new .person-ahnaf-rakyan {
+    height: clamp(100px, 17svh, 145px) !important;
+  }
+}
+
+
+/* ── 7. BACKGROUND HERO AL-FITYAN (samar) ──────────────────────────────── */
+
+body[data-generation="2026"] .modern-site .modern-hero {
+  background-image:
+    linear-gradient(180deg,
+      rgba(3, 14, 36, 0.97) 0%,
+      rgba(6, 30, 64, 0.96) 50%,
+      rgba(3, 15, 38, 0.985) 100%
+    ),
+    url("../assets/assets2026/Lobby OSIS/alfityan.jpg") !important;
+  background-size: cover, cover !important;
+  background-position: center, center !important;
+  background-repeat: no-repeat, no-repeat !important;
+}
+
+/* ── 8. PANEL & EVENTS REVEAL 2026 ──────────────────────────────────────── */
+
+body[data-generation="2026"] .modern-panel:not(.is-visible),
+body[data-generation="2026"] .modern-quote-row blockquote:not(.is-visible),
+body[data-generation="2026"] .modern-event-list article:not(.is-visible) {
+  opacity: 0 !important;
+  transform: translateY(20px) !important;
+}
+
+body[data-generation="2026"] .modern-panel.is-visible,
+body[data-generation="2026"] .modern-quote-row blockquote.is-visible,
+body[data-generation="2026"] .modern-event-list article.is-visible {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+  transition: opacity 1.4s cubic-bezier(0.16,1,0.3,1), transform 1.4s cubic-bezier(0.16,1,0.3,1) !important;
+}
+
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   FINAL FIXES 2026-07-04 (Bugfix Batch)
+   1) Center "OSIS PUTRA SMAFISTA" perfectly
+   2) Aesthetic backgrounds behind logo + instagram footer
+   3) Responsive osis-2025-2026 without altering main UI
+   4) Removed alumni/events sections (handled in HTML)
+   5) Ticker drag with physics (handled in JS, pause styles here)
+   â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+
+
+/* ----------------------------------------------------------------
+   1) LOBBY: TITLE PERFECTLY CENTERED
+   ---------------------------------------------------------------- */
+.osis-lobby .lobby-brand {
+  display: grid !important;
+  grid-template-columns: auto auto !important;
+  gap: 6px clamp(14px, 2vw, 24px) !important;
+  justify-content: center !important;
+  align-items: center !important;
+  justify-items: center !important;
+  text-align: center !important;
+  left: 50% !important;
+  top: auto !important;
+  transform: translateX(-50%) !important;
+}
+
+.osis-lobby .lobby-title {
+  grid-column: 1 / -1 !important;
+  width: 100% !important;
+  max-width: 640px !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+  justify-content: center !important;
+}
+
+.osis-lobby .lobby-title span,
+.osis-lobby .lobby-title strong {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+}
+
+.osis-lobby .lobby-title span {
+  font-size: clamp(.68rem, 1vw, .86rem) !important;
+}
+
+.osis-lobby .lobby-title strong {
+  font-size: clamp(1.9rem, 4.2vw, 3.6rem) !important;
+  letter-spacing: -.03em !important;
+  white-space: nowrap !important;
+}
+
+@media (max-width: 640px) {
+  .osis-lobby .lobby-title strong {
+    white-space: normal !important;
+    font-size: clamp(1.5rem, 7vw, 2.3rem) !important;
+    line-height: .95 !important;
+  }
+}
+
+
+/* ----------------------------------------------------------------
+   2) LOBBY: AESTHETIC BACKGROUND BEHIND LOGOS + INSTAGRAM
+   ---------------------------------------------------------------- */
+.osis-lobby .lobby-brand::before {
+  content: "" !important;
+  position: absolute !important;
+  inset: -32px -48px !important;
+  border-radius: 40px !important;
+  background:
+    radial-gradient(circle at 18% 28%, rgba(117, 191, 255, 0.22), transparent 46%),
+    radial-gradient(circle at 82% 30%, rgba(252, 234, 194, 0.18), transparent 44%),
+    linear-gradient(135deg, rgba(8, 31, 68, 0.55), rgba(3, 13, 34, 0.4));
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.3);
+  z-index: -1;
+}
+
+.osis-lobby .lobby-title,
+.osis-lobby .lobby-brand .main-logo,
+.osis-lobby .lobby-brand .school-logo {
+  position: relative;
+}
+
+.osis-lobby .instagram-link a {
+  position: relative;
+  padding: 10px 18px !important;
+  border-radius: 999px !important;
+  background:
+    radial-gradient(circle at 15% 15%, rgba(255, 138, 197, 0.16), transparent 52%),
+    linear-gradient(135deg, rgba(8, 31, 68, 0.66), rgba(3, 16, 39, 0.5)) !important;
+  border: 1px solid rgba(252, 234, 194, 0.32) !important;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.3) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+}
+
+/* Pastikan override sebelumnya tidak menghapus background */
+.osis-lobby .instagram-link a:hover,
+.osis-lobby .instagram-link a:focus-visible {
+  background:
+    radial-gradient(circle at 15% 15%, rgba(255, 138, 197, 0.24), transparent 52%),
+    linear-gradient(135deg, rgba(10, 44, 94, 0.8), rgba(5, 22, 50, 0.62)) !important;
+  border-color: rgba(252, 234, 194, 0.54) !important;
+}
+
+
+/* ----------------------------------------------------------------
+   3) OSIS-2025-2026 RESPONSIVE (without changing main UI)
+   ---------------------------------------------------------------- */
+
+/* Ingat: body default di style lama punya overflow:hidden dari lobby.
+   Halaman periode harus diizinkan scroll. */
+body[data-page="osis-2025-2026"],
+body[data-page="osis-2026-2027"] {
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+}
+
+/* Pastikan #bg3 (visi misi) tidak membuat halaman lebih lebar dari layar. */
+body[data-page="osis-2025-2026"] .legacy-site section {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+/* --- Menu sticky: rapikan di layar kecil --- */
+@media (max-width: 720px) {
+  body[data-page="osis-2025-2026"] .bgMenu {
+    height: auto;
+  }
+
+  body[data-page="osis-2025-2026"] .menu-container {
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: center;
+    padding: 8px;
+  }
+
+  body[data-page="osis-2025-2026"] #namaIG {
+    font-size: 15px;
+  }
+
+  body[data-page="osis-2025-2026"] #logoIG {
+    font-size: 32px;
+  }
+
+  body[data-page="osis-2025-2026"] .kotak,
+  body[data-page="osis-2025-2026"] .garis {
+    display: none;
+  }
+}
+
+/* --- Section #bg1: lobby 2024/2025 --- */
+@media (max-width: 900px) {
+  body[data-page="osis-2025-2026"] #bg1 {
+    height: auto;
+    min-height: 100vh;
+    padding: 40px 16px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  body[data-page="osis-2025-2026"] #welcome-container {
+    margin: 0 !important;
+    width: 100% !important;
+    position: static !important;
+    text-align: center !important;
+    font-size: 24px !important;
+  }
+
+  body[data-page="osis-2025-2026"] #welcome {
+    font-size: 30px;
+  }
+
+  body[data-page="osis-2025-2026"] #welcome2 {
+    font-size: 44px;
+  }
+
+  body[data-page="osis-2025-2026"] #welcome3 {
+    font-size: 18px;
+  }
+
+  body[data-page="osis-2025-2026"] #logoOsis2 {
+    position: static !important;
+    display: block;
+    margin: 0 auto 14px;
+    width: 120px !important;
+    height: auto;
+  }
+
+  body[data-page="osis-2025-2026"] #boxTahun {
+    margin: 0 auto 12px;
+  }
+
+  body[data-page="osis-2025-2026"] .container1 {
+    display: none;
+  }
+
+  body[data-page="osis-2025-2026"] .container2 {
+    display: none;
+  }
+}
+
+/* --- Section #bg2: definisi --- */
+@media (max-width: 640px) {
+  body[data-page="osis-2025-2026"] #bg2 {
+    height: auto;
+    padding: 60px 12px;
+  }
+
+  body[data-page="osis-2025-2026"] .boxP1 {
+    font-size: 16px;
+    padding: 20px;
+  }
+}
+
+/* --- Section #bg4: divisi ticker --- */
+@media (max-width: 900px) {
+  body[data-page="osis-2025-2026"] #page {
+    padding: 30px 10px;
+  }
+
+  body[data-page="osis-2025-2026"] .card {
+    width: min(320px, 86vw);
+    flex: 0 0 auto;
+  }
+
+  body[data-page="osis-2025-2026"] .card .title img {
+    width: 100% !important;
+    max-width: 336px;
+    border-radius: 16px;
+  }
+
+  body[data-page="osis-2025-2026"] .ticker {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    padding: 14px;
+  }
+
+  body[data-page="osis-2025-2026"] .ticker::-webkit-scrollbar {
+    display: none;
+  }
+
+  body[data-page="osis-2025-2026"] #judulDivisi h1 {
+    font-size: 22px;
+  }
+
+  body[data-page="osis-2025-2026"] .desc p {
+    font-size: 16px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  body[data-page="osis-2025-2026"] .card {
+    width: 82vw;
+  }
+}
+
+
+/* ----------------------------------------------------------------
+   4) TICKER DRAG PHYSICS â€” paksa transform, jangan ada transisi
+      yang mengganggu saat drag (JS mengontrol transform).
+   ---------------------------------------------------------------- */
+body[data-page="osis-2025-2026"] .ticker {
+  transition: none !important;
+}
+
+body[data-page="osis-2025-2026"] .ticker.is-dragging {
+  cursor: grabbing !important;
+}
+
+
+/* ----------------------------------------------------------------
+   5) HIDE REMOVED SECTIONS (fallback jika HTML masih memuatnya)
+   ---------------------------------------------------------------- */
+body[data-page="osis-2025-2026"] #bg5,
+body[data-page="osis-2025-2026"] #bg6 {
+  display: none !important;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   HOTFIX 2026-07-04 (Bagian 2)
+   1) Index bisa di-scroll ke atas / bawah (body & lobby tidak kaku lagi)
+   2) Judul "OSIS PUTRA SMAFISTA" benar-benar center (desktop & mobile)
+   3) Tombol @osisputrasmafista mengalir DI BAWAH kartu 2026/2027 di mobile
+   4) Logo OSIS di hero kedua halaman periode (osis-2025-2026 & osis-2026-2027)
+   5) Responsive Definition & Visi Misi (osis-2025-2026) di HP
+   6) Gambar divisi 2025-2026 muncul di HP (eager loading + responsive)
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+
+/* ── LOGO OSIS DI HERO (kedua halaman periode) ────────────────────────── */
+
+.modern-hero-copy .modern-hero-logo {
+  display: block !important;
+  width: clamp(48px, 5vw, 72px) !important;
+  height: auto !important;
+  margin: 0 0 8px 0 !important;   /* desktop: rata kiri sejajar judul */
+  object-fit: contain !important;
+  filter: drop-shadow(0 6px 14px rgba(0, 0, 0, 0.3)) !important;
+}
+
+/* Responsive: di HP (≤860px) hero jadi 1 kolom → logo di-center */
+@media (max-width: 860px) {
+  .modern-hero-copy .modern-hero-logo {
+    margin: 0 auto 6px auto !important;
+  }
+}
+
+/* Logo OSIS + Al-Fityan di hero: tampil berdampingan sejajar */
+.modern-hero-copy .modern-hero-logos {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  gap: clamp(8px, 1.4vw, 18px) !important;
+  margin-bottom: 8px !important;
+}
+
+.modern-hero-copy .modern-hero-logos .modern-hero-logo {
+  margin: 0 !important;
+  width: clamp(44px, 4.6vw, 66px) !important;
+}
+
+.modern-hero-copy .modern-hero-logos .modern-hero-logo-alfityan {
+  width: clamp(120px, 13vw, 210px) !important;
+  max-height: 64px !important;
+  object-fit: contain !important;
+}
+
+@media (max-width: 860px) {
+  .modern-hero-copy .modern-hero-logos {
+    justify-content: center !important;
+  }
+}
+
+
+/* ── DEFINITION & VISI MISI 2025-2026 DI HP ──────────────────────────── */
+
+/* Pada body 2025-2026 di layar sempit */
+@media (max-width: 640px) {
+  /* Definition (#bg2) — kurangi padding, perbaiki teks */
+  body[data-page="osis-2025-2026"] #bg2 {
+    height: auto !important;
+    min-height: auto !important;
+    padding: 40px 12px !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+
+  body[data-page="osis-2025-2026"] .containerBg2 {
+    flex-direction: column !important;
+    gap: 20px !important;
+  }
+
+  body[data-page="osis-2025-2026"] .bg2Box1 {
+    width: 100% !important;
+  }
+
+  body[data-page="osis-2025-2026"] .boxP1 {
+    font-size: 16px !important;
+    padding: 16px 14px !important;
+    text-align: left !important;
+  }
+
+  body[data-page="osis-2025-2026"] #boxJudul {
+    height: auto !important;
+    padding: 10px 0 !important;
+  }
+
+  body[data-page="osis-2025-2026"] #judul {
+    font-size: 24px !important;
+    padding: 6px 14px !important;
+  }
+
+  /* Visi Misi (#bg3) — kurangi gap, perkecil teks, carousel rapat */
+  body[data-page="osis-2025-2026"] #bg3 {
+    padding: 20px 8px !important;
+    height: auto !important;
+  }
+
+  body[data-page="osis-2025-2026"] .containerBg3 {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  body[data-page="osis-2025-2026"] .bg3Box1 {
+    width: 100% !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  body[data-page="osis-2025-2026"] .bg3Box2 {
+    width: 100% !important;
+    justify-content: center !important;
+  }
+
+  body[data-page="osis-2025-2026"] #carousel-container {
+    width: 100% !important;
+    margin: 10px auto !important;
+    max-width: 500px !important;
+  }
+
+  body[data-page="osis-2025-2026"] .bg3Box3 {
+    width: 100% !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 12px !important;
+  }
+
+  body[data-page="osis-2025-2026"] .visiGroup,
+  body[data-page="osis-2025-2026"] .misiGroup {
+    width: 100% !important;
+    max-width: 500px !important;
+  }
+
+  body[data-page="osis-2025-2026"] #bg3Box4,
+  body[data-page="osis-2025-2026"] #bg3Box5 {
+    font-size: 20px !important;
+    padding: 6px 10px !important;
+  }
+
+  body[data-page="osis-2025-2026"] #bg3Box41 h1,
+  body[data-page="osis-2025-2026"] #bg3Box51 h1,
+  body[data-page="osis-2025-2026"] #bg3Box52 h1,
+  body[data-page="osis-2025-2026"] #bg3Box53 h1 {
+    font-size: 15px !important;
+    line-height: 1.35 !important;
+  }
+
+  body[data-page="osis-2025-2026"] #bg3Box41,
+  body[data-page="osis-2025-2026"] #bg3Box51,
+  body[data-page="osis-2025-2026"] #bg3Box52,
+  body[data-page="osis-2025-2026"] #bg3Box53 {
+    padding: 10px 8px !important;
+  }
+
+  body[data-page="osis-2025-2026"] .titleVisiMisi h1 {
+    font-size: 18px !important;
+    padding: 6px 10px !important;
+  }
+
+  body[data-page="osis-2025-2026"] .titleVisiMisi {
+    width: 100% !important;
+    max-width: 500px !important;
+  }
+}
+
+
+/* ── GAMBAR DIVISI 2025-2026 MUNCUL DI HP ────────────────────────────── */
+
+/* Atur gambar divisi agar responsif (sebelumnya fixed 336px) */
+.division-img {
+  border-radius: 16px !important;
+  width: 100% !important;
+  max-width: 336px !important;
+  height: auto !important;
+  display: block !important;
+}
+
+/* Pastikan kartu divisi tidak overflow di HP (sebelumnya fixed width 375px) */
+@media (max-width: 640px) {
+  body[data-page="osis-2025-2026"] .card {
+    width: 82vw !important;
+    min-width: 260px !important;
+    max-width: 340px !important;
+  }
+
+  body[data-page="osis-2025-2026"] .division-img {
+    max-width: 100% !important;
+  }
+
+  body[data-page="osis-2025-2026"] .card .desc p {
+    font-size: 14px !important;
+  }
+
+  body[data-page="osis-2025-2026"] .card h2 {
+    font-size: 18px !important;
+  }
+
+  body[data-page="osis-2025-2026"] .ticker {
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    scrollbar-width: none !important;
+    padding: 10px 4px !important;
+    gap: 14px !important;
+  }
+
+  body[data-page="osis-2025-2026"] .ticker::-webkit-scrollbar {
+    display: none !important;
+  }
+}
+
+
+/* ── 1. INDEX DAPAT DI-SCROLL (hanya SATU scrollbar — di viewport) ───── */
+
+/* html = satu-satunya scroller. body jangan membuat scrollbar sendiri,
+   supaya tidak muncul scrollbar ganda (html + body). */
+html {
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+}
+
+body.is-lobby {
+  overflow: visible !important;
+}
+
+/* Lobby jadi kontainer normal (bukan viewport kaku) supaya konten yang
+   lebih tinggi dari layar bisa di-scroll.
+   overflow:hidden dipakai untuk memotong elemen dekoratif absolut
+   (ambient-light dsb.) agar tidak menambah area scroll kosong. */
+.osis-lobby {
+  height: auto !important;
+  min-height: 100svh !important;
+  overflow: hidden !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: clamp(14px, 2vh, 26px) !important;
+  padding: clamp(16px, 3vw, 34px) !important;
+}
+
+
+/* ── 2. TULISAN "OSIS PUTRA SMAFISTA" BENAR-BENAR DI TENGAH ───────────── */
+
+/* Brand: dua kolom fleksibel selebar penuh (logo kiri-kanan, judul di bawah) */
+.osis-lobby .lobby-brand {
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+  right: auto !important;
+  transform: none !important;
+  margin: clamp(10px, 2vh, 24px) auto 0 !important;
+  width: min(92vw, 640px) !important;
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  grid-template-rows: auto auto !important;
+  justify-content: center !important;
+  justify-items: center !important;
+  align-items: center !important;
+  column-gap: clamp(8px, 1.4vw, 18px) !important;
+  row-gap: clamp(6px, 1vh, 12px) !important;
+  text-align: center !important;
+  z-index: 8 !important;
+}
+
+.osis-lobby .lobby-brand .main-logo,
+.osis-lobby .lobby-brand .school-logo {
+  position: relative !important;
+  transform: none !important;
+  margin: 0 !important;
+  object-fit: contain !important;
+}
+
+/* Judul menempati selebar penuh (grid span 2 kolom) dan teks di-center */
+.osis-lobby .lobby-title {
+  grid-column: 1 / -1 !important;
+  grid-row: 2 !important;
+  display: block !important;
+  width: 100% !important;
+  max-width: 640px !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+  justify-content: center !important;
+}
+
+.osis-lobby .lobby-title span,
+.osis-lobby .lobby-title strong {
+  display: block !important;
+  width: 100% !important;
+  max-width: 640px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+  white-space: nowrap !important;
+}
+
+@media (max-width: 640px) {
+  .osis-lobby .lobby-title span,
+  .osis-lobby .lobby-title strong {
+    white-space: normal !important;
+  }
+  .osis-lobby .lobby-title strong {
+    font-size: clamp(1.5rem, 7vw, 2.3rem) !important;
+    line-height: .95 !important;
+  }
+}
+
+
+/* ── 3. SELECTOR PERIODE: MENGALIR NORMAL (TIDAK ABSOLUTE LAGI) ───────── */
+
+.osis-lobby .generation-selector {
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+  right: auto !important;
+  transform: none !important;
+  width: min(88vw, 900px) !important;
+  height: auto !important;
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: clamp(24px, 4vw, 60px) !important;
+  align-items: end !important;
+  justify-items: center !important;
+}
+
+.osis-lobby .generation-stage,
+.osis-lobby .generation-stage-old,
+.osis-lobby .generation-stage-new {
+  position: relative !important;
+  transform: none !important;
+  width: min(38vw, 330px) !important;
+  height: 258px !important;
+  min-height: 258px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: flex-end !important;
+  overflow: visible !important;
+}
+
+
+/* ── 4. TOMBOL INSTAGRAM: DI BAWAH SETELAH KARTU 2026/2027 ────────────── */
+
+.osis-lobby .instagram-link {
+  position: relative !important;
+  left: auto !important;
+  right: auto !important;
+  top: auto !important;
+  bottom: auto !important;
+  transform: none !important;
+  width: max-content !important;
+  margin: 0 auto clamp(14px, 2.5vh, 28px) !important;
+  z-index: 8 !important;
+}
+
+
+/* ── 5. PENYESUAIAN LAYAR KECIL (≤820px) ──────────────────────────────── */
+
+@media (max-width: 820px) {
+  .osis-lobby .generation-selector {
+    grid-template-columns: 1fr !important;
+    gap: 22px !important;
+    width: min(92vw, 390px) !important;
+  }
+
+  .osis-lobby .generation-stage,
+  .osis-lobby .generation-stage-old,
+  .osis-lobby .generation-stage-new {
+    width: min(90vw, 320px) !important;
+    height: 205px !important;
+    min-height: 205px !important;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   HOTFIX 2026-07-04 (Bagian 3) — PERFORMA ANTI-LAG, STYLE DI-PERTAHANKAN
+   Penyebab lag: parallax pointer menulis CSS variable & translate setiap
+   gerakan mouse → memaksa browser me-raster ulang layer full-screen
+   (background, overlay gradient, watermark, kartu) tiap frame.
+   Di bawah ini: matikan gerakan dinamis pointer, tampilan statis TETAP SAMA.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* 1) Overlay gradien ::before jadi statis (tidak mengikuti pointer) */
+.osis-lobby::before {
+  background: radial-gradient(circle at 50% 45%, rgba(252, 234, 194, 0.16), transparent 26%) !important;
+}
+
+/* 2) Background gambar: TETAP IKUT GERAKAN POINTER (translate = GPU
+      composite, ringan) tanpa transisi chase. Scale & filter statis. */
+.osis-lobby .background-layer img {
+  translate: calc(var(--scene-x, 0px) * -0.55) calc(var(--scene-y, 0px) * -0.45) !important;
+  transform: scale(1.05) !important;
+  transition: none !important;
+}
+
+/* 3) Stage grid: matikan animasi infinite (gridDrift) — tampilan statis sama */
+.osis-lobby .stage-grid {
+  animation: none !important;
+  translate: 0 0 !important;
+  transition: none !important;
+}
+
+/* 4) Kartu generasi: ikut parallax ringan via transform (GPU composite),
+      hilangkan transisi chase 850ms→260ms; hover ringan tetap ada */
+.osis-lobby .generation-stage,
+.osis-lobby .generation-stage-old,
+.osis-lobby .generation-stage-new {
+  transform: translate3d(calc(var(--scene-x, 0px) * 0.08), calc(var(--scene-y, 0px) * 0.05), 0) !important;
+  transition: transform 260ms ease !important;
+}
+
+.osis-lobby .generation-stage:hover,
+.osis-lobby .generation-stage:focus-visible {
+  transform: translate3d(calc(var(--scene-x, 0px) * 0.08), calc(var(--scene-y, 0px) * 0.05 - 6px), 0) scale(1.02) !important;
+}
+
+/* 5) Watermark: ikut parallax ringan via translate (GPU composite),
+      animasi float dimatikan */
+.osis-lobby .stage-watermark {
+  transform: translate(-50%, -52%) !important;
+  translate: calc(var(--scene-x, 0px) * 0.45) calc(var(--scene-y, 0px) * 0.28) !important;
+  animation: none !important;
+  transition: none !important;
+}
+
+/* 6) Ambient light: matikan animasi float (visual tetap sama) */
+.osis-lobby .ambient-light-left,
+.osis-lobby .ambient-light-right {
+  animation: none !important;
+}
+
+/* 7) Brand container: netral (logo di dalamnya di-translate oleh JS
+      via [data-parallax] — biarkan, itu GPU composite yang ringan) */
+.osis-lobby .lobby-brand {
+  translate: 0 0 !important;
+  transition: none !important;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   HOTFIX 2026-07-04 (Bagian 3b) — SINGLE SCROLLBAR (ANTI 2-SCROLL)
+   Penyebab: html global dibuat overflow-y:auto (untuk index bisa scroll),
+   TAPI body halaman periode juga overflow-y:auto dari fix lama. Akibatnya
+   html DAN body jadi scroll container → saat elemen reveal (fadeUp)
+   bergeser 50px, body sempat overflow → muncul scrollbar kedua di kanan.
+   Solusi: html = SATU-SATUNYA scroller. body dibuat overflow:visible
+   agar tidak pernah menjadi scroll container sendiri. (Catatan: jangan
+   set overflow-x:hidden pada body, karena pair hidden+visible membuat
+   visible ikut terhitung auto → body jadi scroll container lagi.)
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+html {
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+}
+
+body.is-lobby,
+body.site-open,
+body[data-page="osis-2025-2026"],
+body[data-page="osis-2026-2027"] {
+  overflow: visible !important;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   HOTFIX 2026-07-04 (Bagian 4) — BLUR EFFECT HALUS DI HALAMAN INDEX
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* Background foto lobby dibuat blur halus supaya terlihat sinematik dan
+   teks/kartu lebih menonjol. Skala dinaikkan sedikit agar tepi foto yang
+   blur tidak terlihat transparan/bergaris. */
+.osis-lobby .background-layer img {
+  transform: scale(1.1) !important;
+  filter: brightness(0.52) saturate(0.92) contrast(1.08) blur(3px) !important;
+}
+
+/* Kartu periode jadi frosted-glass tipis (background di belakangnya di-blur) */
+.osis-lobby .generation-stage,
+.osis-lobby .generation-stage-old,
+.osis-lobby .generation-stage-new {
+  backdrop-filter: blur(7px) saturate(1.12) !important;
+  -webkit-backdrop-filter: blur(7px) saturate(1.12) !important;
+}
+
+/* Tombol Instagram: blur kaca agar menyatu dengan background */
+.osis-lobby .instagram-link a {
+  backdrop-filter: blur(9px) saturate(1.15) !important;
+  -webkit-backdrop-filter: blur(9px) saturate(1.15) !important;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   HOTFIX 2026-07-04 (Bagian 5) — HERO OSIS 2024/2025: WIAN & CAESAR
+   - Dua foto saling tumpang-tindih sedikit di tengah.
+   - Wian di posisi lebih atas daripada Caesar.
+   - Hover Wian   → foto membesar + mahkota muncul di atas kepalanya.
+   - Hover Caesar → foto membesar saja.
+   - Lepas hover  → kembali ke ukuran normal & mahkota menghilang.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+body[data-generation="2024"] .modern-hero-visual {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-end !important;
+  justify-content: center !important;
+  gap: 0 !important;
+  min-height: 0 !important;
+  padding-top: clamp(20px, 3vh, 40px) !important;  /* ruang untuk mahkota */
+}
+
+/* Masing-masing orang dibungkus group agar bisa di-hover terpisah */
+body[data-generation="2024"] .modern-hero-visual .modern-leader-group {
+  position: relative !important;
+  display: flex !important;
+  align-items: flex-end !important;
+  justify-content: center !important;
+  width: clamp(140px, 22vw, 230px) !important;
+  max-width: 44% !important;
+}
+
+body[data-generation="2024"] .modern-hero-visual .modern-leader-group .modern-leaders {
+  position: relative !important;
+  width: 100% !important;
+  max-width: none !important;
+  height: clamp(210px, 33vh, 330px) !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  object-position: bottom center !important;
+  transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1), filter 0.45s ease !important;
+  animation: leaderFloat 6.5s ease-in-out infinite !important;
+}
+
+/* Wian: di atas (lebih tinggi) + tumpukan kiri sedikit menimpa ceasar */
+body[data-generation="2024"] .modern-hero-visual .modern-leader-wian {
+  z-index: 3 !important;
+  margin-right: clamp(-44px, -5.5vw, -18px) !important;
+  margin-bottom: clamp(16px, 2.6vw, 34px) !important;  /* mendorong naik */
+}
+
+body[data-generation="2024"] .modern-hero-visual .modern-leader-caesar {
+  z-index: 2 !important;
+  margin-left: clamp(-44px, -5.5vw, -18px) !important;
+  margin-bottom: clamp(16px, 2.6vw, 34px) !important;  /* sejajar dengan Wian */
+}
+
+/* Mahkota di atas kepala Wian: tersembunyi default, muncul saat hover */
+body[data-generation="2024"] .modern-hero-visual .modern-leader-wian .modern-crown {
+  position: absolute !important;
+  left: 50% !important;
+  top: -10% !important;                           /* naik ~30px lebih tinggi */
+  width: clamp(54px, 6.5vw, 92px) !important;
+  height: auto !important;
+  transform: translateX(-50%) translateY(-49px) !important;  /* turun 15px */
+  opacity: 0 !important;
+  filter: drop-shadow(0 12px 20px rgba(0, 0, 0, 0.45)) !important;
+  z-index: 12 !important;                         /* di atas foto Wian */
+  pointer-events: none !important;
+  animation: leaderFloat 6.5s ease-in-out infinite;   /* ikut naik-turun Wian */
+  transition: opacity 0.4s ease, transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), translate 0.4s ease !important;
+}
+
+/* Hover Wian: foto membesar + mahkota muncul */
+body[data-generation="2024"] .modern-hero-visual .modern-leader-wian:hover .modern-leaders {
+  transform: scale(1.14) !important;
+  filter: drop-shadow(0 22px 26px rgba(0, 0, 0, 0.4)) !important;
+  z-index: 6 !important;
+}
+
+body[data-generation="2024"] .modern-hero-visual .modern-leader-wian:hover .modern-crown {
+  opacity: 1 !important;
+  transform: translateX(-50%) translateY(-43px) !important;  /* turun 15px */
+}
+
+/* Hover Caesar: foto membesar saja */
+body[data-generation="2024"] .modern-hero-visual .modern-leader-caesar:hover .modern-leaders {
+  transform: scale(1.14) !important;
+  filter: drop-shadow(0 22px 26px rgba(0, 0, 0, 0.4)) !important;
+  z-index: 6 !important;
+}
+
+/* Paksa foto saat hover tetap di atas pasangan lain via parent z-index */
+body[data-generation="2024"] .modern-hero-visual .modern-leader-group:hover {
+  z-index: 8 !important;
+}
+
+body[data-generation="2024"] .modern-hero-visual .modern-watermark {
+  width: min(30%, 160px) !important;
+  opacity: 0.13 !important;
+}
+
+/* Float halus memakai properti translate agar tidak menimpa transform hover */
+@keyframes leaderFloat {
+  0%, 100% { translate: 0 0; }
+  50%      { translate: 0 -10px; }
+}
+
+@media (max-width: 640px) {
+  body[data-generation="2024"] .modern-hero-visual .modern-leader-group {
+    width: clamp(100px, 30vw, 150px) !important;
+    max-width: 48% !important;
+  }
+
+  body[data-generation="2024"] .modern-hero-visual .modern-leader-group .modern-leaders {
+    height: clamp(150px, 24vh, 210px) !important;
+  }
+
+  body[data-generation="2024"] .modern-hero-visual .modern-leader-wian {
+    margin-right: clamp(-26px, -7vw, -12px) !important;
+    margin-bottom: clamp(10px, 2vw, 20px) !important;
+  }
+
+  body[data-generation="2024"] .modern-hero-visual .modern-leader-caesar {
+    margin-left: clamp(-26px, -7vw, -12px) !important;
+  }
+
+  body[data-generation="2024"] .modern-hero-visual .modern-leader-wian .modern-crown {
+    width: clamp(40px, 10vw, 60px) !important;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   HOTFIX 2026-07-04 (Task User)
+   1) Logo OSIS & Al-Fityan di lobby lebih dekat ke tengah
+   2) Judul "VISI & MISI" (osis-2025-2026) di-center + background fit-content
+   3) Tulisan "- Visi -" & "- Misi -" ukuran pas di HP (sebelumnya 36px)
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* ── 1. LOBBY: LOGO OSIS + AL-FITYAN DEKAT KE TENGAH ──────────────────── */
+
+/* Ganti 2 kolom rata (masing-masing 50% lebar) → kolom mengecil otomatis
+   sesuai ukuran logo (auto auto) sehingga keduanya rapat di tengah. */
+.osis-lobby .lobby-brand {
+  grid-template-columns: auto auto !important;
+  justify-content: center !important;
+  column-gap: clamp(4px, 0.6vw, 12px) !important;
+  width: min(92vw, 640px) !important;
+}
+
+/* ── 2. JUDUL "VISI & MISI" (2025): CENTER + BACKGROUND FIT CONTENT ───── */
+
+body[data-page="osis-2025-2026"] .titleVisiMisi {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 14px !important;
+  width: 50% !important;
+  margin: 0 auto !important;
+}
+
+/* Background gradien tidak lagi selebar penuh, melainkan menyesuaikan
+   panjang teks (fit-content) dan di-center. */
+body[data-page="osis-2025-2026"] .titleVisiMisi h1 {
+  display: inline-block !important;
+  width: fit-content !important;
+  max-width: 100% !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+  white-space: nowrap !important;
+  font-size: clamp(20px, 2.8vw, 34px) !important;
+  line-height: 1.2 !important;
+}
+
+/* ── 3. "- VISI -" & "- MISI -" : UKURAN PAS DI MOBILE ────────────────── */
+
+/* Penyebab kegedean: rule global `h2 { font-size: 36px }` menimpa ukuran
+   container (#bg3Box4/#bg3Box5) di HP. Target langsung h2 di dalamnya. */
+@media (max-width: 640px) {
+  body[data-page="osis-2025-2026"] #bg3Box4 h2,
+  body[data-page="osis-2025-2026"] #bg3Box5 h2 {
+    font-size: 19px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   HOTFIX 2026-07-04 (Credits & Copyright Footer)
+   1) Halaman osis-2025-2026: footer kredit kontributor di paling bawah
+   2) Kedua halaman periode: copyright © 2026 OSIS SMA Al-Fityan
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* ── Kredit Kontributor (halaman 2025-2026) ───────────────────────────── */
+
+.site-credits {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(28px, 4vw, 48px);
+  padding: clamp(48px, 6vw, 80px) clamp(16px, 4vw, 40px);
+  background:
+    linear-gradient(180deg, rgba(24, 67, 128, 0.35), rgba(6, 22, 51, 0.9)),
+    url(../assets/assets2025/Keseluruhan/Background_image.svg);
+  background-color: #184380;
+  color: #ffffff;
+  border-top: 1px solid rgba(252, 234, 194, 0.24);
+  box-shadow: inset 0 18px 40px rgba(2, 6, 23, 0.35);
+}
+
+.credits-inner {
+  width: min(860px, 100%);
+  text-align: center;
+}
+
+.credits-inner h3 {
+  margin: 0 0 clamp(20px, 3vw, 34px);
+  color: #fceac2;
+  font-family: "Montserrat", "Poppins", system-ui, sans-serif;
+  font-size: clamp(20px, 2.6vw, 32px);
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.credits-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(14px, 2.4vw, 28px);
+}
+
+.credit-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: clamp(18px, 2.6vw, 30px) clamp(12px, 2vw, 24px);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(252, 234, 194, 0.16);
+  box-shadow: 0 14px 34px rgba(2, 6, 23, 0.3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.credit-item strong {
+  color: #ffffff;
+  font-family: "Montserrat", "Poppins", system-ui, sans-serif;
+  font-size: clamp(15px, 1.8vw, 20px);
+  font-weight: 800;
+  text-align: center;
+}
+
+.credit-item span {
+  color: rgba(248, 251, 255, 0.7);
+  font-size: clamp(12px, 1.3vw, 14px);
+}
+
+.credit-item a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 4px;
+  padding: 7px 14px;
+  border-radius: 999px;
+  color: #061633;
+  background: #fceac2;
+  font-size: clamp(12px, 1.2vw, 13px);
+  font-weight: 800;
+  text-decoration: none;
+  transition: transform 220ms ease, box-shadow 220ms ease;
+}
+
+.credit-item a:hover,
+.credit-item a:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(252, 234, 194, 0.3);
+}
+
+.credit-item .credit-unknown {
+  margin-top: 4px;
+  padding: 7px 14px;
+  border-radius: 999px;
+  color: rgba(248, 251, 255, 0.78);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px dashed rgba(252, 234, 194, 0.3);
+  font-size: clamp(12px, 1.2vw, 13px);
+  font-weight: 600;
+}
+
+/* ── Copyright (kedua halaman periode) ────────────────────────────────── */
+
+.site-copyright {
+  width: 100%;
+  text-align: center;
+  padding: clamp(16px, 2.4vw, 26px) 16px;
+  color: rgba(248, 251, 255, 0.62);
+  background: rgba(3, 13, 34, 0.9);
+  border-top: 1px solid rgba(252, 234, 194, 0.14);
+}
+
+.site-copyright p {
+  margin: 0;
+  font-family: "Poppins", "Montserrat", system-ui, sans-serif;
+  font-size: clamp(12px, 1.4vw, 14px);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+/* Pada 2025-2026, copyright berada di dalam footer kredit → tanpa background
+   ganda, cukup garis atas tipis. */
+.site-credits .site-copyright {
+  background: transparent;
+  border-top: 1px solid rgba(252, 234, 194, 0.16);
+}
+
+/* Responsive: kartu kredit jadi 1 kolom di layar sempit */
+@media (max-width: 640px) {
+  .credits-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   HOTFIX 2026-07-04 (Feedback User) — Lobby logos rapat + Al-Fityan klikable
+   Netralkan semua override lama yang membuat kedua logo saling menjauh
+   (justify-self end/start, content:url() ganti gambar, pointer-events none)
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* 1) Brand: dua kolom kecil (auto auto), center, gap sangat rapat.
+      pointer-events diaktifkan lagi agar logo Al-Fityan bisa diklik. */
+.osis-lobby .lobby-brand {
+  grid-template-columns: auto auto !important;
+  justify-content: center !important;
+  justify-items: center !important;
+  align-items: center !important;
+  column-gap: 2px !important;
+  row-gap: clamp(4px, 0.5vw, 8px) !important;
+  width: min(92vw, 620px) !important;
+  pointer-events: auto !important;
+}
+
+/* 2) Logo tidak boleh saling dorong ke tepi; keduanya center & berdekatan */
+.osis-lobby .lobby-brand .main-logo,
+.osis-lobby .lobby-brand .school-logo {
+  justify-self: center !important;
+  float: none !important;
+  margin: 0 !important;
+  transform: none !important;
+  translate: 0 0 !important;
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+/* Batalkan override content:url() lama → pakai src asli (versi cropped) */
+.osis-lobby .school-logo {
+  content: none !important;
+}
+
+/* Ukuran proporsional: OSIS kiri, Al-Fityan kanan, rapat berdampingan */
+.osis-lobby .lobby-brand .main-logo {
+  width: clamp(46px, 4.4vw, 66px) !important;
+  max-height: 58px !important;
+  height: auto !important;
+  object-fit: contain !important;
+}
+
+.osis-lobby .lobby-brand .school-logo {
+  width: clamp(104px, 8.6vw, 148px) !important;
+  max-height: 58px !important;
+  height: auto !important;
+  object-fit: contain !important;
+}
+
+/* 3) Al-Fityan logo → link klikable ke alfityantangerang.sch.id */
+.osis-lobby .lobby-brand .school-logo-link {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: auto !important;
+  height: auto !important;
+  line-height: 0 !important;
+  border-radius: 14px !important;
+  pointer-events: auto !important;
+  transition: transform 220ms ease, filter 220ms ease, box-shadow 220ms ease !important;
+}
+
+.osis-lobby .lobby-brand .school-logo-link:hover,
+.osis-lobby .lobby-brand .school-logo-link:focus-visible {
+  transform: translateY(-3px) !important;
+  filter: drop-shadow(0 14px 22px rgba(120, 200, 255, 0.42)) !important;
+}
+
+.osis-lobby .lobby-brand .school-logo-link:focus-visible {
+  outline: 2px solid rgba(252, 234, 194, 0.85);
+  outline-offset: 4px;
+}
+
+/* 4) Judul tetap selebar penuh di bawah kedua logo */
+.osis-lobby .lobby-title {
+  grid-column: 1 / -1 !important;
+  grid-row: auto !important;
+  width: 100% !important;
+  max-width: 620px !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+  justify-self: center !important;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   HOTFIX 2026-07-04 (Bagian 6) — HERO LOGO halaman periode rapat + klikable
+   Berlaku untuk osis-2025-2026.html & osis-2026-2027.html (logo di hero).
+   Akar masalah sama dengan lobby: logo Al-Fityan berbentuk lebar, jika diukur
+   pakai width maka ada dead-space tak terlihat yang membuat kedua logo tampak
+   berjauhan. Solusi: ukur KEDUA logo berdasarkan TINGGI (height + width auto)
+   sehingga kotak <img> menempel pada gambar asli.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* Logo OSIS + Al-Fityan di hero: rapat & sejajar tengah */
+.modern-hero-copy .modern-hero-logos {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  flex-wrap: nowrap !important;
+  gap: clamp(4px, 0.7vw, 12px) !important;
+  margin-bottom: 10px !important;
+}
+
+/* OSIS logo & Al-Fityan logo: ukuran ditentukan dari tinggi, bukan lebar */
+.modern-hero-copy .modern-hero-logos .modern-hero-logo {
+  width: auto !important;
+  height: clamp(56px, 5.2vw, 84px) !important;
+  max-height: 84px !important;
+  margin: 0 !important;
+  flex: 0 0 auto !important;
+  object-fit: contain !important;
+}
+
+.modern-hero-copy .modern-hero-logos .modern-hero-logo-alfityan {
+  width: auto !important;
+  height: clamp(44px, 4.2vw, 68px) !important;
+  max-height: none !important;
+}
+
+/* Link pembungkus logo Al-Fityan: benar-benar bisa diklik ke alfityantangerang.sch.id */
+.modern-hero-copy .modern-hero-logos .modern-hero-logo-link {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  line-height: 0 !important;
+  width: auto !important;
+  height: auto !important;
+  flex: 0 0 auto !important;
+  pointer-events: auto !important;
+  cursor: pointer !important;
+  text-decoration: none !important;
+  border-radius: 10px !important;
+  transition: transform 220ms ease, filter 220ms ease, box-shadow 220ms ease !important;
+}
+
+.modern-hero-copy .modern-hero-logos .modern-hero-logo-link:hover,
+.modern-hero-copy .modern-hero-logos .modern-hero-logo-link:focus-visible {
+  transform: translateY(-2px) !important;
+  filter: drop-shadow(0 10px 18px rgba(120, 200, 255, 0.42)) !important;
+}
+
+.modern-hero-copy .modern-hero-logos .modern-hero-logo-link:focus-visible {
+  outline: 2px solid rgba(252, 234, 194, 0.85);
+  outline-offset: 3px;
+}
+
+/* Mobile: tetap rapat & di-center */
+@media (max-width: 860px) {
+  .modern-hero-copy .modern-hero-logos {
+    justify-content: center !important;
+    gap: 6px !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .modern-hero-copy .modern-hero-logos .modern-hero-logo {
+    height: 56px !important;
+  }
+  .modern-hero-copy .modern-hero-logos .modern-hero-logo-alfityan {
+    height: 46px !important;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   HOTFIX 2026-07-04 (User Confirmation) — FINAL
+   Logo lobby berdekatan + Logo Al-Fityan benar-benar bisa diklik
+   ─────────────────────────────────────────────────────────────────────────
+   Root cause "logo masih berjauhan":
+   Logo Al-Fityan lama diset dengan `width` tetap (sampai 148px) sementara
+   isi gambarnya (al-fityan-logo-cropped.png, 1688×941) dibatasi `max-height`,
+   sehingga elemen <img> menyisakan ruang kosong tak terlihat di kiri/kanan.
+   Solusi: ukur KEDUA logo berdasarkan TINGGI (height) + width:auto → kotak
+   <img> menempel persis ke isi gambar, tanpa dead space, dan kedua logo
+   rapat di tengah.
+   ─────────────────────────────────────────────────────────────────────────
+   Logo Al-Fityan juga dipastikan klikabel:
+   - <a class="school-logo-link"> membungkus logo
+   - pointer-events: auto + cursor: pointer
+   - efek hover (terangkat) agar terlihat jelas bisa diklik
+   - membuka https://alfityantangerang.sch.id/ di tab baru
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* Brand: flex row, rapat di tengah, judul wrap ke baris berikutnya. */
+.osis-lobby .lobby-brand {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  align-items: center !important;
+  align-content: center !important;
+  column-gap: clamp(4px, 0.8vw, 12px) !important;
+  row-gap: clamp(4px, 0.6vw, 8px) !important;
+  width: min(92vw, 640px) !important;
+  max-width: min(92vw, 640px) !important;
+  margin: clamp(10px, 2vh, 24px) auto 0 !important;
+  position: relative !important;
+  left: auto !important;
+  right: auto !important;
+  top: auto !important;
+  bottom: auto !important;
+  transform: none !important;
+  translate: 0 0 !important;
+  text-align: center !important;
+  pointer-events: auto !important;
+  z-index: 8 !important;
+}
+
+/* Logo OSIS: ukur berdasarkan tinggi → kotak presisi, tanpa dead space. */
+.osis-lobby .lobby-brand .main-logo {
+  width: auto !important;
+  height: clamp(50px, 5vw, 72px) !important;
+  max-width: none !important;
+  max-height: none !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  flex: 0 0 auto !important;
+  display: block !important;
+  object-fit: contain !important;
+  object-position: center !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  filter: drop-shadow(0 12px 22px rgba(0, 0, 0, 0.34)) !important;
+}
+
+/* Link Al-Fityan: bungkus logo, benar-benar klikabel. */
+.osis-lobby .lobby-brand .school-logo-link {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex: 0 0 auto !important;
+  width: auto !important;
+  height: auto !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  max-width: none !important;
+  max-height: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 0 !important;
+  border: 0 !important;
+  border-radius: 12px !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  pointer-events: auto !important;
+  cursor: pointer !important;
+  transition: transform 220ms ease, filter 220ms ease !important;
+}
+
+.osis-lobby .lobby-brand .school-logo-link:hover,
+.osis-lobby .lobby-brand .school-logo-link:focus-visible {
+  transform: translateY(-3px) !important;
+  filter: drop-shadow(0 16px 26px rgba(120, 200, 255, 0.45)) !important;
+}
+
+.osis-lobby .lobby-brand .school-logo-link:focus-visible {
+  outline: 2px solid rgba(252, 234, 194, 0.85) !important;
+  outline-offset: 4px !important;
+}
+
+/* Logo Al-Fityan: ukur berdasarkan tinggi juga → rapat dengan logo OSIS. */
+.osis-lobby .lobby-brand .school-logo {
+  content: none !important;
+  width: auto !important;
+  height: clamp(50px, 5vw, 72px) !important;
+  max-width: none !important;
+  max-height: none !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: block !important;
+  object-fit: contain !important;
+  object-position: center !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  filter: drop-shadow(0 12px 22px rgba(0, 0, 0, 0.34)) !important;
+}
+
+/* Judul: satu baris penuh di bawah kedua logo. */
+.osis-lobby .lobby-brand .lobby-title {
+  flex: 1 0 100% !important;
+  order: 5 !important;
+  width: 100% !important;
+  max-width: 640px !important;
+  margin: clamp(2px, 0.4vw, 6px) auto 0 !important;
+  padding: 0 !important;
+  text-align: center !important;
+  justify-content: center !important;
+  justify-items: center !important;
+  grid-column: auto !important;
+  grid-row: auto !important;
+}
+
+.osis-lobby .lobby-title span,
+.osis-lobby .lobby-title strong {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+}
+
+/* Mobile: logo tetap rapat & proporsional. */
+@media (max-width: 640px) {
+  .osis-lobby .lobby-brand {
+    column-gap: 4px !important;
+  }
+  .osis-lobby .lobby-brand .main-logo,
+  .osis-lobby .lobby-brand .school-logo {
+    height: 40px !important;
+  }
 }

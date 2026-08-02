@@ -1,0 +1,90 @@
+/* ============================================================
+   Skeleton Loading + Back Button
+   ============================================================ */
+
+/* ---- Skeleton loader overlay ---- */
+#skeletonLoader {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: #061936;
+  opacity: 1;
+  visibility: visible;
+  transition: opacity .5s ease, visibility .5s ease;
+}
+
+#skeletonLoader.skeleton-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.skeleton-inner {
+  width: min(92vw, 900px);
+  max-height: 90vh;
+  overflow: auto;
+}
+
+/* Fallback block styles (works even before Tailwind CDN finishes) */
+.sk-block {
+  background: rgba(148, 163, 184, 0.22);
+  border-radius: 12px;
+  animation: skeletonPulse 1.4s ease-in-out infinite;
+}
+
+@keyframes skeletonPulse {
+  0%, 100% { opacity: .55; }
+  50%      { opacity: .95; }
+}
+
+/* ---- Back button ---- */
+.osis-back-btn {
+  position: fixed;
+  left: 18px;
+  top: 18px;
+  bottom: auto;
+  z-index: 2000;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-radius: 999px;
+  color: #ffffff;
+  background: rgba(3, 16, 39, 0.72);
+  border: 1px solid rgba(252, 234, 194, 0.5);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.28);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  font-family: "Montserrat", "Poppins", system-ui, sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform .25s ease, background .25s ease;
+}
+
+.osis-back-btn:hover,
+.osis-back-btn:focus-visible {
+  background: rgba(10, 47, 102, 0.9);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 700px) {
+  .osis-back-btn {
+    left: 10px;
+    top: 10px;
+    bottom: auto;
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+}
+
+/* Sembunyikan tombol kembali selama skeleton masih tampil */
+body:has(#skeletonLoader:not(.skeleton-hidden)) .osis-back-btn {
+  display: none;
+}
+
